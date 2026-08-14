@@ -34,7 +34,7 @@ export function Hero() {
               <div className="relative overflow-hidden rounded-[1.5rem] border border-line bg-white">
                 <span className="absolute inset-x-8 top-12 h-px bg-gradient-to-r from-transparent via-brand-blue/35 to-transparent" />
                 <span className="absolute inset-y-8 left-12 w-px bg-gradient-to-b from-transparent via-brand-blue/25 to-transparent" />
-                <img src="/images/hero-product.jpg" alt="Zijin Electronics featured range hood switch product series" className="float-slow absolute inset-0 h-full w-full object-contain p-10" />
+                <img src="/images/hero-product.jpg" alt="KDC-A08-5-4P-3PCB range hood switch product" className="float-slow absolute inset-0 h-full w-full object-contain p-10" />
                 <div className="absolute left-6 top-6 rounded-2xl bg-white/92 p-4 shadow-glow">
                   <CircuitBoard className="h-7 w-7 text-brand-blue" />
                   <p className="mt-2 text-sm font-bold">Range Hood Switches</p>
