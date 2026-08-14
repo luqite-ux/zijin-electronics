@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import { SectionShell } from '@/components/section-shell'
-import { productCategories } from '@/lib/site-data'
+import { getProductCategories } from '@/lib/products-db'
 
-export default function ProductsPage() {
+export default async function ProductsPage() {
+  const productCategories = await getProductCategories()
+
   return (
     <SectionShell eyebrow="Products" title="Switch, key cap, and connector catalog" text="Browse Zijin Electronics original product models. Every page is designed for B2B technical inquiry, model review, and custom quotation after requirements are confirmed.">
       <div className="mb-10 flex flex-wrap gap-3">

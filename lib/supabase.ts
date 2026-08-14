@@ -6,3 +6,7 @@ export function getSupabaseClient() {
   if (!url || !key) return null
   return createClient(url, key, { auth: { persistSession: false } })
 }
+
+export function getTenantId() {
+  return process.env.NEXT_PUBLIC_TENANT_ID || ''
+}
