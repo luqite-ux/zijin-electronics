@@ -1,8 +1,10 @@
 import { Hero } from '@/components/home/hero'
+import { ApplicationScenarios } from '@/components/home/application-scenarios'
+import { FaqPreview } from '@/components/home/faq-preview'
+import { FeaturedProducts } from '@/components/home/featured-products'
 import { ManufacturingPreview } from '@/components/home/manufacturing-preview'
-import { ProductMatrix } from '@/components/home/product-matrix'
+import { ProductSeries } from '@/components/home/product-series'
 import { QualityPreview } from '@/components/home/quality-preview'
-import { Workflow } from '@/components/home/workflow'
 import { InquiryCta } from '@/components/inquiry-cta'
 import { SectionShell } from '@/components/section-shell'
 
@@ -10,17 +12,23 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <SectionShell eyebrow="Product Catalog" title="Switch, key cap, and connector categories for B2B buyers" text="The catalog is organized for technical selection and inquiry. Every product path leads buyers toward model review, samples, and project requirements.">
-        <ProductMatrix />
+      <SectionShell eyebrow="Product Series" title="Core switch and connector categories for appliance manufacturers" text="Start from the main series, then send model numbers, drawings, samples, or application requirements through the unified inquiry form.">
+        <ProductSeries />
       </SectionShell>
-      <SectionShell eyebrow="OEM / ODM Workflow" title="From model selection to custom production">
-        <Workflow />
+      <SectionShell eyebrow="Featured Products" title="Range hood switch models selected from the Zijin catalog" text="The homepage highlights real products from the original Zijin Electronics product center, with every product detail page leading buyers to inquiry.">
+        <FeaturedProducts />
+      </SectionShell>
+      <SectionShell eyebrow="Application Scenarios" title="Components for appliance controls, interfaces, and precision assemblies" text="Instead of invented project cases, the homepage presents factual application areas from customer materials and product documentation.">
+        <ApplicationScenarios />
       </SectionShell>
       <SectionShell eyebrow="Manufacturing" title="Factory capacity behind switch and connector production">
         <ManufacturingPreview />
       </SectionShell>
       <SectionShell eyebrow="Quality & Certifications" title="Process inspection and certification-backed trust">
         <QualityPreview />
+      </SectionShell>
+      <SectionShell eyebrow="FAQ" title="B2B purchasing questions before sending an inquiry">
+        <FaqPreview />
       </SectionShell>
       <section className="px-5 pb-20 sm:px-8">
         <div className="mx-auto max-w-7xl rounded-[2rem] bg-gradient-to-r from-brand-blue via-[#1d83d4] to-brand-green p-10 text-white shadow-glow">

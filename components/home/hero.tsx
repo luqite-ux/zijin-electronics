@@ -41,14 +41,14 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="grid gap-3 rounded-3xl border border-white/70 bg-white/86 p-3 shadow-glow backdrop-blur sm:p-4 md:grid-cols-[1.2fr_2fr] md:items-center">
+          <div className="grid gap-3 rounded-3xl border border-white/70 bg-white p-3 shadow-glow sm:bg-white/86 sm:p-4 sm:backdrop-blur md:grid-cols-[1.2fr_2fr] md:items-center">
             <div className="flex items-center gap-3 px-1">
               <Sparkles className="h-6 w-6 shrink-0 text-brand-blue" />
               <p className="text-sm font-bold text-ink">Featured series: {featuredProducts.slice(0, 3).map((item) => item.model).join(' / ')}</p>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
               {stats.slice(0, 6).map((stat) => (
-                <div key={stat.label} className="rounded-2xl border border-line bg-white/88 p-4">
+                <div key={stat.label} className="rounded-2xl border border-line bg-white p-4 sm:bg-white/88">
                   <p className="text-xl font-black text-ink">{stat.value}</p>
                   <p className="mt-1 text-xs font-semibold uppercase text-muted">{stat.label}</p>
                 </div>
