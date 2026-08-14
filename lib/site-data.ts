@@ -72,7 +72,7 @@ export const siteInfo = {
   description:
     'Yueqing Zijin Electronics manufactures direct key switches, range hood switches, door lock switches, key caps, and connector components for appliance, audio-visual, medical equipment, and precision instrument projects.',
   phone: '+86 138 1976 1299',
-  email: '734925868@qq.com',
+  email: 'info@zijinglobal.com',
   address: 'No.175 Fanxing Road, Shifan Street, Yueqing, Zhejiang, China',
   logo: '/images/logo.png',
   logoMark: '/images/logo.png',

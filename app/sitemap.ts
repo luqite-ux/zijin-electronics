@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { productCategories, products } from '@/lib/site-data'
 import { productPath } from '@/lib/routes'
 
-const baseUrl = 'https://www.zijindz.com'
+const baseUrl = 'https://www.zijinglobal.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ['', '/about', '/products', '/manufacturing', '/quality', '/faq', '/contact']
