@@ -41,6 +41,7 @@ function rowToProduct(row: Record<string, unknown>): Product {
 function rowToCategory(row: Record<string, unknown>): ProductCategory {
   const slug = typeof row.slug === 'string' ? row.slug : ''
   const fallback = fallbackCategories.find((item) => item.slug === slug) || fallbackCategories[0]
+  const dbSummary = pickI18n(row.description_i18n) || (typeof row.description === 'string' ? row.description : '')
   return {
     ...fallback,
     id: typeof row.id === 'string' ? row.id : fallback.id,
@@ -48,7 +49,7 @@ function rowToCategory(row: Record<string, unknown>): ProductCategory {
     name: pickI18n(row.name_i18n) || (typeof row.name === 'string' ? row.name : fallback.name),
     sourceName: fallback.sourceName,
     count: fallbackProducts.filter((product) => product.categorySlug === slug).length,
-    summary: { en: pickI18n(row.description_i18n) || (typeof row.description === 'string' ? row.description : fallback.summary.en) }
+    summary: { en: dbSummary && !/\b[A-Z][A-Za-z /-]+s models for\b/.test(dbSummary) ? dbSummary : fallback.summary.en }
   }
 }
 
