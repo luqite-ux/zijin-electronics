@@ -8,7 +8,7 @@ export function QualityPreview() {
         <div>
           <ShieldCheck className="h-12 w-12 text-brand-blue" />
           <h3 className="mt-5 text-3xl font-semibold tracking-tight text-ink">Inspection-led confidence for appliance projects.</h3>
-          <p className="mt-4 leading-8 text-muted">Public copy should stay factual: testing, process checks, and agreed technical requirements.</p>
+          <p className="mt-4 leading-8 text-muted">Inspection steps focus on test conditions, process checks, and agreed technical requirements for each confirmed project.</p>
         </div>
         <div className="grid gap-3">
           {qualitySteps.map((step) => (

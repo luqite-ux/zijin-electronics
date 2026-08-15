@@ -22,6 +22,7 @@ const forbiddenCommitments = /\b(warranty|warranties|guarantee|guaranteed|qualit
 
 const siteData = read('lib/site-data.ts')
 const productData = read('lib/products-data.json')
+const productCatalog = JSON.parse(productData)
 const routes = read('lib/routes.ts')
 const header = read('components/site-header.tsx')
 const layout = read('app/layout.tsx')
@@ -41,6 +42,17 @@ assert.match(layout, /favicon\.ico\?v=zijin-technology-20260815/, 'favicon shoul
 assert.ok(fs.existsSync(path.join(root, 'public/favicon.ico')), 'standard favicon.ico should exist for browser tabs')
 assert.match(inquiryRoute, /from\(['"]inquiries['"]\)\.insert/, 'API route must insert into inquiries')
 assert.match(inquiryForm, /fetch\(['"]\/api\/inquiries['"]/, 'form must submit to real inquiry API')
+
+for (const product of productCatalog.products) {
+  assert.doesNotMatch(product.model, /[\u4e00-\u9fff]/, `${product.slug} model should be English-only`)
+  assert.doesNotMatch(product.summary, /[\u4e00-\u9fff]/, `${product.slug} summary should be English-only`)
+  assert.doesNotMatch(product.model, /\(\)|--/, `${product.slug} model should not contain empty punctuation artifacts`)
+  assert.doesNotMatch(product.summary, /\ba (SD|HDMI|FPC)\b/, `${product.slug} summary should use the correct English article`)
+}
+
+for (const category of productCatalog.categories) {
+  assert.doesNotMatch(category.name, /[\u4e00-\u9fff]/, `${category.slug} category name should be English-only`)
+}
 
 const sourceDirs = ['app', 'components', 'lib'].map((name) => path.join(root, name))
 const files = sourceDirs.flatMap((dir) => walk(dir))

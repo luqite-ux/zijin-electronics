@@ -13,13 +13,13 @@ export function ProductDetail({ product }: { product: Product }) {
             <p className="mt-6 text-sm font-bold uppercase tracking-[0.2em] text-brand-blue">{product.categoryName}</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight text-ink">{product.model}</h1>
             <p className="mt-5 leading-8 text-muted">{product.summary}</p>
-            <InquiryCta label="Request Quote / Samples" className="mt-8" />
+            <InquiryCta label="Request Samples / Project Review" className="mt-8" />
           </aside>
           <div className="space-y-6">
             {[
               ['Applications', product.applications],
               ['Model Advantages', product.features],
-              ['Inquiry Notes', ['Send model number, application, drawing requirements, estimated quantity, and target delivery schedule.', 'No prices are displayed online. Quotations are confirmed after project review.', 'OEM / ODM customization can be discussed according to samples, drawings, or application requirements.']]
+              ['Inquiry Notes', ['Send the model number, application, drawing requirements, estimated quantity, and target delivery schedule.', 'Commercial terms are confirmed after the project scope is reviewed.', 'OEM / ODM customization can be discussed according to samples, drawings, or application requirements.']]
             ].map(([title, items]) => (
               <section key={title as string} className="rounded-3xl border border-line bg-white p-7">
                 <h2 className="text-2xl font-bold text-ink">{title as string}</h2>
