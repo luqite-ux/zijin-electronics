@@ -21,7 +21,7 @@ export function Hero() {
           className="pointer-events-none absolute bottom-24 right-1 z-10 w-48 drop-shadow-2xl sm:hidden"
         />
 
-        <div className="relative z-10 flex min-h-[680px] flex-col justify-between px-6 py-8 sm:min-h-[760px] sm:px-10 lg:min-h-[780px] lg:px-16 lg:py-14">
+        <div className="relative z-10 flex min-h-[680px] flex-col px-6 py-8 sm:min-h-[760px] sm:px-10 lg:min-h-[780px] lg:px-16 lg:py-14">
           <div className="max-w-3xl pt-5 sm:pt-12 lg:pt-16">
             <p className="inline-flex rounded-full border border-brand-blue/20 bg-white/90 px-4 py-2 text-sm font-bold text-brand-blue shadow-sm backdrop-blur">
               OEM / ODM Switch & Connector Manufacturer Since 2007
@@ -41,7 +41,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="grid gap-3 rounded-3xl border border-white/70 bg-white p-3 shadow-glow sm:bg-white/86 sm:p-4 sm:backdrop-blur md:grid-cols-[1.2fr_2fr] md:items-center">
+          <div className="mt-auto grid gap-3 rounded-3xl border border-white/70 bg-white p-3 shadow-glow sm:mt-24 sm:bg-white/86 sm:p-4 sm:backdrop-blur lg:mt-32 md:grid-cols-[1.2fr_2fr] md:items-center">
             <div className="flex items-center gap-3 px-1">
               <Sparkles className="h-6 w-6 shrink-0 text-brand-blue" />
               <p className="text-sm font-bold text-ink">Featured series: {featuredProducts.slice(0, 3).map((item) => item.model).join(' / ')}</p>

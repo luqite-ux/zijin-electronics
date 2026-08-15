@@ -2,6 +2,7 @@
 const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL?.replace(/\/$/, '')
 
 const nextConfig = {
+  experimental: { cpus: 1 },
   images: {
     unoptimized: true
   },
