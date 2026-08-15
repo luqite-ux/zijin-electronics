@@ -24,6 +24,7 @@ const siteData = read('lib/site-data.ts')
 const productData = read('lib/products-data.json')
 const routes = read('lib/routes.ts')
 const header = read('components/site-header.tsx')
+const layout = read('app/layout.tsx')
 const inquiryRoute = read('app/api/inquiries/route.ts')
 const inquiryForm = read('components/contact/inquiry-form.tsx')
 
@@ -36,6 +37,8 @@ assert.match(routes, /inquiryPath\s*=\s*['"]\/contact#inquiry['"]/, 'inquiry rou
 assert.match(header, /navItems\.map/, 'header must render navigation data')
 assert.match(header, /width=\{238\}/, 'header must render the confirmed Zijin Technology logo')
 assert.match(header, /height=\{230\}/, 'header logo height should match the confirmed source aspect ratio')
+assert.match(layout, /favicon\.ico\?v=zijin-technology-20260815/, 'favicon should use a cache-busted ico file for browser tabs')
+assert.ok(fs.existsSync(path.join(root, 'public/favicon.ico')), 'standard favicon.ico should exist for browser tabs')
 assert.match(inquiryRoute, /from\(['"]inquiries['"]\)\.insert/, 'API route must insert into inquiries')
 assert.match(inquiryForm, /fetch\(['"]\/api\/inquiries['"]/, 'form must submit to real inquiry API')
 
