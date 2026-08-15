@@ -34,6 +34,8 @@ assert.match(siteData, /label:\s*['"]Home['"]/, 'nav data must include visible H
 assert.match(productData, /"products"/, 'scraped product data should be present')
 assert.match(routes, /inquiryPath\s*=\s*['"]\/contact#inquiry['"]/, 'inquiry route should be centralized')
 assert.match(header, /navItems\.map/, 'header must render navigation data')
+assert.match(header, /width=\{179\}/, 'header must render the full horizontal Zijin logo')
+assert.match(header, /height=\{101\}/, 'header logo height should match the source aspect ratio')
 assert.match(inquiryRoute, /from\(['"]inquiries['"]\)\.insert/, 'API route must insert into inquiries')
 assert.match(inquiryForm, /fetch\(['"]\/api\/inquiries['"]/, 'form must submit to real inquiry API')
 

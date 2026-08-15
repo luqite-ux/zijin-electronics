@@ -8,9 +8,9 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/80 bg-white/88 backdrop-blur-xl">
       <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-2.5" aria-label="Zijin Electronics Home">
-          <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm ring-1 ring-line sm:h-14 sm:w-14">
-            <Image src={siteInfo.logoMark} alt="" width={56} height={56} className="h-11 w-11 object-contain sm:h-12 sm:w-12" priority />
+        <Link href="/" className="flex shrink-0 items-center gap-3" aria-label="Zijin Electronics Home">
+          <span className="flex h-12 w-24 items-center justify-center sm:h-14 sm:w-28">
+            <Image src={siteInfo.logoMark} alt="" width={179} height={101} className="h-auto w-full object-contain" priority />
           </span>
           <span className="whitespace-nowrap text-base font-black tracking-normal text-ink sm:text-lg lg:text-[1.05rem]">{siteInfo.brand}</span>
         </Link>
