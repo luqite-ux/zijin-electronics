@@ -1,6 +1,7 @@
 import { Cable, Factory, Layers3, PlugZap, ShieldCheck, SlidersHorizontal, Sparkles, Zap } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import catalog from './products-data.json'
+import { selectHomeFeaturedProducts } from './home-featured-products'
 
 export type Localized = { en: string }
 
@@ -114,7 +115,7 @@ export const productCategories: ProductCategory[] = catalog.categories.map((cate
 
 export const products: Product[] = catalog.products
 
-export const featuredProducts = products.filter((product) => product.categorySlug === 'range-hood-switches').slice(0, 8)
+export const featuredProducts = selectHomeFeaturedProducts(products)
 
 export const solutions = [
   {

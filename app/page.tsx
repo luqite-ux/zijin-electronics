@@ -15,7 +15,7 @@ export default function HomePage() {
       <SectionShell eyebrow="Product Series" title="Core switch and connector categories for appliance manufacturers" text="Start from the main series, then send model numbers, drawings, samples, or application requirements through the unified inquiry form.">
         <ProductSeries />
       </SectionShell>
-      <SectionShell eyebrow="Featured Products" title="Range hood switch models selected from the Zijin catalog" text="The homepage highlights real products from the original Zijin Electronics product center, with every product detail page leading buyers to inquiry.">
+      <SectionShell eyebrow="Featured Products" title="0.5mm, 1.0mm, and 1.25mm connector models" text="Explore three current connector pitches selected from the Zijin Electronics catalog, with every product detail page leading buyers to inquiry.">
         <FeaturedProducts />
       </SectionShell>
       <SectionShell eyebrow="Application Scenarios" title="Components for appliance controls, interfaces, and precision assemblies" text="Instead of invented project cases, the homepage presents factual application areas from customer materials and product documentation.">
