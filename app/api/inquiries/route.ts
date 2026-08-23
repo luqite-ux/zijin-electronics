@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getSupabaseClient } from '@/lib/supabase'
+import { createSupabaseCaptchaContextFromEnv, verifyCaptchaSubmission } from '@/lib/inquiry-captcha'
 
 function text(value: FormDataEntryValue | null) {
   return String(value ?? '').trim()
@@ -18,6 +19,25 @@ export async function POST(request: Request) {
   const message = text(formData.get('message'))
   if (!name || !email || !message) {
     return NextResponse.json({ error: 'Name, email, and message are required.' }, { status: 400 })
+  }
+
+  const captchaSecret = process.env.CAPTCHA_SECRET?.trim()
+  if (!captchaSecret) {
+    return NextResponse.json({ error: 'Verification service is temporarily unavailable.' }, { status: 503 })
+  }
+  try {
+    const captcha = await verifyCaptchaSubmission({
+      secret: captchaSecret,
+      ...createSupabaseCaptchaContextFromEnv(),
+      scope: text(formData.get('captchaScope')).slice(0, 160),
+      token: text(formData.get('captchaToken')).slice(0, 4096),
+      answer: text(formData.get('captchaAnswer')).slice(0, 16),
+    })
+    if (!captcha.ok) {
+      return NextResponse.json({ error: 'The verification code is incorrect or expired. Please try again.' }, { status: 400 })
+    }
+  } catch {
+    return NextResponse.json({ error: 'Verification service is temporarily unavailable.' }, { status: 503 })
   }
 
   const productInterest = text(formData.get('productInterest'))

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { InquiryCaptchaField } from '@/components/inquiry-captcha-field'
 
 const fields = [
   ['name', 'Name'],
@@ -16,6 +17,7 @@ const fields = [
 export function InquiryForm() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [message, setMessage] = useState('')
+  const [captchaRefreshKey, setCaptchaRefreshKey] = useState(0)
 
   return (
     <form
@@ -27,6 +29,7 @@ export function InquiryForm() {
         setMessage('')
         const response = await fetch('/api/inquiries', { method: 'POST', body: new FormData(event.currentTarget) })
         const result = await response.json().catch(() => ({}))
+        setCaptchaRefreshKey((key) => key + 1)
         if (!response.ok) {
           setStatus('error')
           setMessage(result.error || 'Submission failed. Please try again.')
@@ -53,6 +56,7 @@ export function InquiryForm() {
         Message
         <textarea name="message" className="mt-2 min-h-32 w-full rounded-2xl border border-line bg-brand-ice p-4 text-ink outline-none focus:border-brand-blue" required />
       </label>
+      <InquiryCaptchaField refreshKey={captchaRefreshKey} className="mt-4" />
       <label className="mt-4 block rounded-2xl border border-dashed border-brand-blue/35 bg-brand-ice p-5 text-sm font-semibold text-muted">
         You can mention drawings, samples, materials, color, process, and target application in the message.
       </label>
