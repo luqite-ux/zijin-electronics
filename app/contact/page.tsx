@@ -4,7 +4,7 @@ import { siteInfo } from '@/lib/site-data'
 
 export default function ContactPage() {
   return (
-    <SectionShell eyebrow="Contact" title="Send your switch, key cap, or connector inquiry" text="Share model number, product category, application, estimated quantity, custom requirements, and sample needs so the team can review your project scope.">
+    <SectionShell headingLevel={1} eyebrow="Contact" title="Send your connector inquiry" text="Share the required pitch, entry direction, contact configuration, application, estimated quantity, and sample needs so the team can review your project scope.">
       <div className="grid gap-8 lg:grid-cols-[.85fr_1.15fr]">
         <div className="rounded-[2rem] border border-line bg-white p-7 shadow-sm">
           <h2 className="text-2xl font-bold text-ink">Contact details</h2>

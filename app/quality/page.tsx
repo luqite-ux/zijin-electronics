@@ -3,7 +3,7 @@ import { qualitySteps } from '@/lib/site-data'
 
 export default function QualityPage() {
   return (
-    <SectionShell eyebrow="Quality & Testing" title="Inspection and testing for stable control-system output" text="Quality content stays factual and focused on process checks, test conditions, and agreed technical requirements.">
+    <SectionShell headingLevel={1} eyebrow="Quality & Testing" title="Inspection and testing for stable connector output" text="Quality content stays factual and focused on process checks, test conditions, and agreed technical requirements.">
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-5">
         {qualitySteps.map((step, index) => (
           <article key={step} className="rounded-3xl border border-line bg-white p-6 shadow-sm">

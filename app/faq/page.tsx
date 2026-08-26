@@ -3,7 +3,7 @@ import { faqs } from '@/lib/site-data'
 
 export default function FaqPage() {
   return (
-    <SectionShell eyebrow="FAQ" title="Common questions for appliance control projects">
+    <SectionShell headingLevel={1} eyebrow="FAQ" title="Common questions for connector projects">
       <div className="grid gap-4">
         {faqs.map((faq) => (
           <article key={faq.question} className="rounded-3xl border border-line bg-white p-6">

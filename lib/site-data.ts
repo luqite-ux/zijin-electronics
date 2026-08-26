@@ -1,4 +1,4 @@
-import { Cable, Factory, Layers3, PlugZap, ShieldCheck, SlidersHorizontal, Sparkles, Zap } from 'lucide-react'
+import { Cable, Factory, ShieldCheck, Sparkles, Zap } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import catalog from './products-data.json'
 import { selectHomeFeaturedProducts } from './home-featured-products'
@@ -32,36 +32,16 @@ export type Product = {
 }
 
 const categoryMeta: Record<string, { eyebrow: string; summary: string; icon: LucideIcon }> = {
-  'range-hood-switches': {
-    eyebrow: 'Featured appliance switch line',
-    summary: 'Range hood switch assemblies and direct-key switch models for kitchen appliance manufacturers.',
-    icon: SlidersHorizontal
-  },
-  'direct-key-switches': {
-    eyebrow: 'Direct key switch systems',
-    summary: 'Direct key switch models for appliance panels that need clear tactile operation and custom assembly support.',
-    icon: SlidersHorizontal
-  },
-  'key-caps': {
-    eyebrow: 'Interface components',
-    summary: 'Key caps and illuminated key-cap options for matched appliance control-panel designs.',
-    icon: Layers3
-  },
-  'usb-connectors': {
-    eyebrow: 'Connector solutions',
-    summary: 'USB connector models for electronics, home appliance, and precision equipment projects.',
-    icon: PlugZap
-  },
-  'fpc-ffc-connectors': {
-    eyebrow: 'Flexible circuit connection',
-    summary: 'FPC and FFC connector models for compact electronic assemblies and equipment interfaces.',
+  'pitch-connectors': {
+    eyebrow: 'Focused connector range',
+    summary: '0.5mm and 1.0mm FPC / FFC connectors plus a 1.25mm wafer connector for compact electronic and wire-to-board connections.',
     icon: Cable
   }
 }
 
 const defaultCategoryMeta = {
   eyebrow: 'Catalog product series',
-  summary: 'Switch and connector models selected from Zijin Electronics original product catalog for B2B project inquiries.',
+  summary: 'Connector models selected from the customer-supplied product catalog for B2B project inquiries.',
   icon: Zap
 }
 
@@ -69,9 +49,9 @@ export const siteInfo = {
   brand: 'Zijin Electronics',
   company: 'Yueqing Zijin Electronics Co., Ltd.',
   adminDisplayName: '乐清市紫金电子有限公司',
-  tagline: 'Custom Switches, Key Caps & Connectors for Global Appliance Manufacturers',
+  tagline: '0.5mm, 1.0mm & 1.25mm Connector Solutions for Global Manufacturers',
   description:
-    'Yueqing Zijin Electronics manufactures direct key switches, range hood switches, door lock switches, key caps, and connector components for appliance, audio-visual, medical equipment, and precision instrument projects.',
+    'Yueqing Zijin Electronics supplies 0.5mm and 1.0mm FPC / FFC connectors and 1.25mm wafer connectors for appliance, audio-visual, medical equipment, and precision instrument projects.',
   phone: '+86 138 1976 1299',
   email: 'info@zijinglobal.com',
   address: 'No.175 Fanxing Road, Shifan Street, Yueqing, Zhejiang, China',
@@ -97,7 +77,7 @@ export const stats = [
   { value: '2,200 m2', label: 'Factory Area' },
   { value: '12', label: 'Workshops' },
   { value: '4', label: 'Production Lines' },
-  { value: '30,000/day', label: 'Key Cap Capacity' },
+  { value: '3', label: 'Confirmed Connector Pitches' },
   { value: '15 days', label: 'Regular Lead Time' }
 ]
 
@@ -119,18 +99,18 @@ export const featuredProducts = selectHomeFeaturedProducts(products)
 
 export const solutions = [
   {
-    title: 'Home Appliance Switches',
-    text: 'Switch assemblies for range hoods, door locks, power controls, tactile controls, and custom appliance panels.',
-    icon: SlidersHorizontal
+    title: '0.5mm FPC / FFC Connectors',
+    text: 'SMT side-entry connectors with top-contact and bottom-contact configuration options.',
+    icon: Cable
   },
   {
-    title: 'Key Caps & Interface Parts',
-    text: 'Key caps and illuminated key-cap solutions for appliance interface styling and model matching.',
-    icon: Layers3
+    title: '1.0mm FPC / FFC Connectors',
+    text: 'Flexible-circuit connector options for appliance controls and compact electronic assemblies.',
+    icon: Cable
   },
   {
-    title: 'Connector Components',
-    text: 'USB, BTB, SD/SIM, FPC/FFC, wafer, HDMI, and quick terminal connector categories for precision electronics.',
+    title: '1.25mm Wafer Connectors',
+    text: '1.25T-nAWB/AB series with side-entry and top-entry configurations.',
     icon: Cable
   },
   {
@@ -142,10 +122,9 @@ export const solutions = [
 
 export const manufacturingFacts = [
   '2,200 m2 production site with 12 workshops and 4 production lines',
-  'Daily capacity: 10,000 direct key switches',
-  'Daily capacity: 30,000 key caps',
-  'Daily capacity: 8,000 hair dryer / door lock switch units',
   'Daily capacity: 30,000 connector components',
+  'Current public catalog: 0.5mm and 1.0mm FPC / FFC connectors',
+  'Current public catalog: 1.25mm wafer connectors',
   'Regular order lead time is about 15 days after confirmed requirements'
 ]
 
@@ -161,7 +140,7 @@ export const workflow = [
 export const faqs = [
   {
     question: 'What product models are available?',
-    answer: 'The website includes switch, key cap, and connector models from Zijin Electronics original product catalog. Buyers can send the model number or application requirement for selection support.'
+    answer: 'The current website catalog includes 0.5mm and 1.0mm FPC / FFC connectors plus a 1.25mm wafer connector. Buyers can send the pitch, application, drawing, or sample requirement for review.'
   },
   {
     question: 'Do you support customized size, material, color, or process?',

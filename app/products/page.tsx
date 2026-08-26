@@ -6,7 +6,7 @@ export default async function ProductsPage() {
   const productCategories = await getProductCategories()
 
   return (
-    <SectionShell eyebrow="Products" title="Switch, key cap, and connector catalog" text="Browse Zijin Electronics original product models. Every page is designed for B2B technical inquiry, model review, and project discussion after requirements are confirmed.">
+    <SectionShell headingLevel={1} eyebrow="Products" title="0.5mm, 1.0mm, and 1.25mm connector catalog" text="Browse the focused connector range for FPC / FFC and wire-to-board applications. Every page supports B2B technical inquiry and project discussion.">
       <div className="mb-10 flex flex-wrap gap-3">
         {productCategories.map((category) => (
           <Link key={category.slug} href={`/products/category/${category.slug}`} className="rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:border-brand-blue hover:text-brand-blue">

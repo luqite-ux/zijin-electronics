@@ -1,5 +1,8 @@
 import { getSupabaseClient, getTenantId } from '@/lib/supabase'
 import { productCategories as fallbackCategories, products as fallbackProducts, type Product, type ProductCategory } from '@/lib/site-data'
+import { isApprovedProductSlug } from '@/lib/home-featured-products'
+
+const approvedCategorySlug = 'pitch-connectors'
 
 function pickI18n(value: unknown, preferred = 'en') {
   if (!value || typeof value !== 'object' || Array.isArray(value)) return ''
@@ -66,7 +69,8 @@ export async function getProductCategories(): Promise<ProductCategory[]> {
     .order('sort_order', { ascending: true })
 
   if (error || !data?.length) return fallbackCategories
-  return data.map((row) => rowToCategory(row as Record<string, unknown>))
+  const approved = data.filter((row) => row.slug === approvedCategorySlug)
+  return approved.length ? approved.map((row) => rowToCategory(row as Record<string, unknown>)) : fallbackCategories
 }
 
 export async function getProducts(): Promise<Product[]> {
@@ -82,7 +86,8 @@ export async function getProducts(): Promise<Product[]> {
     .order('sort_order', { ascending: true })
 
   if (error || !data?.length) return fallbackProducts
-  return data.map((row) => rowToProduct(row as Record<string, unknown>))
+  const approved = data.filter((row) => typeof row.slug === 'string' && isApprovedProductSlug(row.slug))
+  return approved.length ? approved.map((row) => rowToProduct(row as Record<string, unknown>)) : fallbackProducts
 }
 
 export async function getProductsByCategory(categorySlug: string): Promise<Product[]> {
@@ -91,6 +96,7 @@ export async function getProductsByCategory(categorySlug: string): Promise<Produ
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
+  if (!isApprovedProductSlug(slug)) return null
   const tenantId = getTenantId()
   const supabase = getSupabaseClient()
   if (!tenantId || !supabase) return fallbackProducts.find((product) => product.slug === slug) || null

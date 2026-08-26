@@ -3,7 +3,7 @@ import { manufacturingFacts, stats, workflow } from '@/lib/site-data'
 
 export default function ManufacturingPage() {
   return (
-    <SectionShell eyebrow="Manufacturing" title="Production capability for custom switch and connector projects" text="A 2,200 m2 production site with 12 workshops and 4 production lines supports daily output across switch, key cap, and connector categories.">
+    <SectionShell headingLevel={1} eyebrow="Manufacturing" title="Production capability for custom connector projects" text="A 2,200 m2 production site with 12 workshops and 4 production lines supports connector project review, production, and outgoing inspection.">
       <div className="grid gap-6 lg:grid-cols-[.8fr_1.2fr]">
         <div className="rounded-[2rem] bg-gradient-to-br from-brand-blue to-[#3aa2e8] p-8 text-white shadow-glow">
           <h2 className="text-3xl font-semibold tracking-tight">Factory facts</h2>

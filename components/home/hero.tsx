@@ -6,39 +6,43 @@ import { featuredProducts, stats } from '@/lib/site-data'
 export function Hero() {
   return (
     <section className="relative overflow-hidden px-4 py-6 sm:px-6 lg:px-8">
-      <div className="relative mx-auto min-h-[680px] max-w-[1680px] overflow-hidden rounded-[2rem] border border-line bg-brand-ice shadow-glow sm:min-h-[760px] lg:min-h-[780px]">
-        <img
-          src="/images/hero-banner.png"
-          alt="Zijin Electronics switch and connector products on an intelligent manufacturing banner"
-          className="absolute inset-0 h-full w-full object-cover object-[58%_center] sm:object-center"
-        />
-        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.98)_0%,rgba(255,255,255,0.94)_38%,rgba(255,255,255,0.58)_66%,rgba(255,255,255,0.16)_100%)] sm:bg-[linear-gradient(90deg,rgba(255,255,255,0.98)_0%,rgba(255,255,255,0.94)_26%,rgba(255,255,255,0.62)_46%,rgba(255,255,255,0.08)_72%)]" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-white/95 via-white/55 to-transparent" />
-
-        <img
-          src="/images/hero-product.jpg"
-          alt="KDC-A08-5-4P-3PCB range hood switch product"
-          className="pointer-events-none absolute bottom-24 right-1 z-10 w-48 drop-shadow-2xl sm:hidden"
-        />
+      <div className="relative mx-auto min-h-[680px] max-w-[1680px] overflow-hidden rounded-[2rem] border border-line bg-[radial-gradient(circle_at_82%_28%,rgba(49,162,232,0.2),transparent_32%),linear-gradient(135deg,#ffffff_0%,#edf8ff_58%,#dff5ef_100%)] shadow-glow sm:min-h-[760px] lg:min-h-[780px]">
+        <div className="pointer-events-none absolute -right-24 top-16 h-96 w-96 rounded-full border border-brand-blue/10 bg-white/45 blur-2xl" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-white/90 via-white/45 to-transparent" />
 
         <div className="relative z-10 flex min-h-[680px] flex-col px-6 py-8 sm:min-h-[760px] sm:px-10 lg:min-h-[780px] lg:px-16 lg:py-14">
-          <div className="max-w-3xl pt-5 sm:pt-12 lg:pt-16">
+          <div className="max-w-2xl pt-5 sm:pt-12 lg:pt-16">
             <p className="inline-flex rounded-full border border-brand-blue/20 bg-white/90 px-4 py-2 text-sm font-bold text-brand-blue shadow-sm backdrop-blur">
-              OEM / ODM Switch & Connector Manufacturer Since 2007
+              Focused connector range
             </p>
             <h1 className="mt-7 max-w-4xl text-4xl font-semibold leading-tight text-ink sm:text-6xl lg:text-7xl">
-              Precision Switch Solutions for Global Appliance Production
+              0.5mm, 1.0mm & 1.25mm Connector Solutions
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-700 sm:text-lg">
-              Yueqing Zijin Electronics manufactures range hood switches, direct key switches, key caps, and connector components for appliance, audio-visual, medical equipment, and precision instrument projects.
+              Explore two FPC / FFC connector pitches and one wafer connector pitch for compact electronic and wire-to-board connection projects.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <InquiryCta label="Send Project Inquiry" />
-              <Link href="/products/category/range-hood-switches" className="inline-flex min-h-12 items-center gap-3 rounded-full border border-brand-blue/25 bg-white px-6 text-sm font-bold text-ink shadow-sm transition hover:border-brand-blue hover:text-brand-blue">
-                View Range Hood Switches
+              <Link href="/products/category/pitch-connectors" className="inline-flex min-h-12 items-center gap-3 rounded-full border border-brand-blue/25 bg-white px-6 text-sm font-bold text-ink shadow-sm transition hover:border-brand-blue hover:text-brand-blue">
+                View Connector Products
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
+          </div>
+
+          <div className="mt-10 grid grid-cols-3 gap-3 md:absolute md:right-12 md:top-20 md:mt-0 md:w-[42%] md:max-w-2xl md:gap-4 lg:right-16 lg:top-24">
+            {featuredProducts.map((product, index) => (
+              <Link
+                key={product.slug}
+                href={`/products/${product.slug}`}
+                className={`group rounded-3xl border border-white/80 bg-white/92 p-3 shadow-glow backdrop-blur transition hover:-translate-y-1 ${index === 1 ? 'md:translate-y-14' : ''}`}
+              >
+                <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white p-2">
+                  <img src={product.image} alt={product.model} className="h-full w-full object-contain transition duration-500 group-hover:scale-105" />
+                </div>
+                <p className="mt-3 text-center text-xs font-black text-ink sm:text-sm">{product.model.split(' Pitch')[0]}</p>
+              </Link>
+            ))}
           </div>
 
           <div className="mt-auto grid gap-3 rounded-3xl border border-white/70 bg-white p-3 shadow-glow sm:mt-24 sm:bg-white/86 sm:p-4 sm:backdrop-blur lg:mt-32 md:grid-cols-[1.2fr_2fr] md:items-center">

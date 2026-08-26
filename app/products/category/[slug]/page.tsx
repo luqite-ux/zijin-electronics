@@ -16,7 +16,7 @@ export default async function ProductCategoryPage({ params }: { params: Promise<
   const categoryProducts = await getProductsByCategory(category.slug)
 
   return (
-    <SectionShell eyebrow="Product Category" title={category.name} text={`${category.count} catalog models for B2B model selection, sample request, and custom production inquiry.`}>
+    <SectionShell headingLevel={1} eyebrow="Product Category" title={category.name} text={`${category.count} connector products for B2B model selection, sample request, and custom production inquiry.`}>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         {categoryProducts.map((product) => <ProductCard key={product.slug} product={product} />)}
       </div>

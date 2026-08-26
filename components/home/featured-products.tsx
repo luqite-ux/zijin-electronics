@@ -15,7 +15,7 @@ export function FeaturedProducts() {
           <div className="flex aspect-square items-center justify-center rounded-2xl bg-gradient-to-br from-brand-ice to-white p-5">
             <img src={product.image} alt={`${product.model} connector`} className="h-full w-full object-contain transition duration-500 group-hover:scale-105" loading="lazy" />
           </div>
-          <p className="mt-5 text-xs font-bold uppercase text-brand-blue">FPC / FFC Connectors</p>
+          <p className="mt-5 text-xs font-bold uppercase text-brand-blue">{product.categoryName}</p>
           <h3 className="mt-2 text-lg font-semibold text-ink">{product.model}</h3>
           <p className="mt-3 line-clamp-3 text-sm leading-6 text-muted">{product.summary}</p>
           <p className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-blue">

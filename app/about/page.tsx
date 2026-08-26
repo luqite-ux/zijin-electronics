@@ -3,14 +3,14 @@ import { siteInfo } from '@/lib/site-data'
 
 export default function AboutPage() {
   return (
-    <SectionShell eyebrow="About Us" title="Focused on switches, key caps, and connectors since 2007" text="Yueqing Zijin Electronics Co., Ltd. supports appliance, electronics, medical equipment, and precision instrument projects with model selection and custom production.">
+    <SectionShell headingLevel={1} eyebrow="About Us" title="Connector project support from Yueqing Zijin Electronics" text="The current public catalog focuses on 0.5mm, 1.0mm, and 1.25mm connectors for B2B model selection and custom production inquiries.">
       <div className="grid gap-8 lg:grid-cols-[1.1fr_.9fr]">
         <div className="rounded-[2rem] border border-line bg-white p-8 leading-8 text-muted shadow-sm">
           <p>
-            Since 2007, Zijin Electronics has focused on direct key switches, door lock switches, hair dryer switches, key caps, and connector components. The company mainly supports customized production for B2B customers.
+            Zijin Electronics supports connector model selection and customized production for B2B customers. The current website catalog presents three focused connector pitches.
           </p>
           <p className="mt-5">
-            Products are used in audio-visual products, home appliances, medical equipment, and other precision instruments. Buyers can select from the existing catalog or send samples, drawings, and application requirements for project review.
+            The 0.5mm and 1.0mm FPC / FFC connectors and 1.25mm wafer connector are intended for compact electronic assemblies, appliance controls, audio-visual equipment, medical equipment, and precision instruments. Buyers can send samples, drawings, and application requirements for project review.
           </p>
         </div>
         <div className="rounded-[2rem] bg-gradient-to-br from-brand-ice to-white p-8 shadow-glow">

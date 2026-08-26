@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --no-warnings tests/home-featured-products.test.mjs && node tests/site-rules.test.mjs"
+    "test": "node tests/customer-pdf-products.test.mjs && node --no-warnings tests/home-featured-products.test.mjs && node tests/site-rules.test.mjs"
   },
   "dependencies": {
     "@next/swc-win32-x64-msvc": "16.3.0",

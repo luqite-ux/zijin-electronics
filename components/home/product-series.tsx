@@ -3,12 +3,7 @@ import { ArrowRight } from 'lucide-react'
 import { productCategories } from '@/lib/site-data'
 
 const priority = [
-  'range-hood-switches',
-  'direct-key-switches',
-  'key-caps',
-  'fpc-ffc-connectors',
-  'usb-connectors',
-  'wafer-connectors'
+  'pitch-connectors'
 ]
 
 export function ProductSeries() {
@@ -34,7 +29,7 @@ export function ProductSeries() {
                     <Icon className="h-6 w-6" />
                   </span>
                   <span className="rounded-full border border-line bg-white px-3 py-1 text-xs font-bold text-muted">
-                    {item.count} models
+                    {item.count} products
                   </span>
                 </div>
                 <p className="mt-6 text-xs font-bold uppercase text-brand-blue">{item.eyebrow}</p>
