@@ -52,6 +52,44 @@ a {
   animation: float-slow 7s ease-in-out infinite;
 }
 
+.hero-sparkle {
+  position: absolute;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: white;
+  box-shadow: 0 0 0.45rem rgba(255, 255, 255, 0.95), 0 0 1.2rem rgba(101, 190, 255, 0.9);
+  opacity: 0;
+  animation: hero-sparkle 3.8s ease-in-out infinite;
+}
+
+.hero-sparkle::before,
+.hero-sparkle::after {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.95), transparent);
+  transform: translate(-50%, -50%);
+}
+
+.hero-sparkle::before {
+  width: 2.2rem;
+  height: 1px;
+}
+
+.hero-sparkle::after {
+  width: 1px;
+  height: 2.2rem;
+  background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.95), transparent);
+}
+
+.hero-sparkle-1 { left: 64%; top: 17%; animation-delay: -0.4s; }
+.hero-sparkle-2 { left: 76%; top: 28%; animation-delay: -2.1s; transform: scale(0.72); }
+.hero-sparkle-3 { left: 88%; top: 14%; animation-delay: -1.3s; transform: scale(0.52); }
+.hero-sparkle-4 { left: 58%; top: 38%; animation-delay: -3.1s; transform: scale(0.45); }
+.hero-sparkle-5 { left: 82%; top: 43%; animation-delay: -2.6s; transform: scale(0.6); }
+
 @keyframes flow {
   0%, 100% {
     background-position: 0% 50%;
@@ -67,5 +105,27 @@ a {
   }
   50% {
     transform: translateY(-12px);
+  }
+}
+
+@keyframes hero-sparkle {
+  0%, 100% { opacity: 0; }
+  38% { opacity: 0; }
+  48% { opacity: 0.95; }
+  58% { opacity: 0; }
+}
+
+@media (max-width: 639px) {
+  .hero-sparkle-1 { left: 72%; top: 14%; }
+  .hero-sparkle-2 { left: 87%; top: 25%; }
+  .hero-sparkle-3 { left: 61%; top: 34%; }
+  .hero-sparkle-4 { left: 83%; top: 43%; }
+  .hero-sparkle-5 { left: 67%; top: 52%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-sparkle {
+    animation: none;
+    opacity: 0.45;
   }
 }

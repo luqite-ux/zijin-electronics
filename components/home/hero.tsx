@@ -42,6 +42,13 @@ export function Hero() {
           className="hidden object-cover object-center sm:block"
         />
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.97)_0%,rgba(255,255,255,0.88)_38%,rgba(255,255,255,0.08)_67%,transparent_100%)] sm:bg-[linear-gradient(90deg,rgba(255,255,255,0.98)_0%,rgba(255,255,255,0.93)_34%,rgba(255,255,255,0.18)_58%,transparent_78%)]" />
+        <div className="pointer-events-none absolute inset-0 z-10" aria-hidden="true">
+          <span className="hero-sparkle hero-sparkle-1" />
+          <span className="hero-sparkle hero-sparkle-2" />
+          <span className="hero-sparkle hero-sparkle-3" />
+          <span className="hero-sparkle hero-sparkle-4" />
+          <span className="hero-sparkle hero-sparkle-5" />
+        </div>
 
         <div className="relative z-30 max-w-[690px] px-6 pb-8 pt-10 sm:px-10 sm:pt-14 lg:px-16 lg:pt-16 xl:px-20">
           <p className="flex items-center gap-3 text-[11px] font-black uppercase tracking-[0.2em] text-brand-blue sm:text-xs">
