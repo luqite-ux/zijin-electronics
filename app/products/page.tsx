@@ -1,9 +1,20 @@
+import Image from 'next/image'
 import Link from 'next/link'
+import { ArrowRight } from 'lucide-react'
 import { SectionShell } from '@/components/section-shell'
-import { getProductCategories } from '@/lib/products-db'
+import { getProductCategories, getProducts } from '@/lib/products-db'
+import { productPath } from '@/lib/routes'
+
+const transparentProductImages: Record<string, string> = {
+  '0-5mm-pitch-connector': '/images/products/transparent/0-5mm-connector-complete.webp',
+  '1-0mm-pitch-connector': '/images/products/transparent/1-0mm-connector.webp',
+  '1-25mm-pitch-connector': '/images/products/transparent/1-25mm-connectors.webp',
+}
 
 export default async function ProductsPage() {
-  const productCategories = await getProductCategories()
+  const [productCategories, products] = await Promise.all([getProductCategories(), getProducts()])
+  const singleCategory = productCategories.length === 1 ? productCategories[0] : null
+  const SingleCategoryIcon = singleCategory?.icon
 
   return (
     <SectionShell headingLevel={1} eyebrow="Products" title="0.5mm, 1.0mm, and 1.25mm connector catalog" text="Browse the focused connector range for FPC / FFC and wire-to-board applications. Every page supports B2B technical inquiry and project discussion.">
@@ -14,8 +25,53 @@ export default async function ProductsPage() {
           </Link>
         ))}
       </div>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {productCategories.map((category) => {
+      {singleCategory && SingleCategoryIcon ? (
+        <div className="overflow-hidden rounded-[1.75rem] border border-line bg-white shadow-sm">
+          <div className="grid lg:grid-cols-[0.78fr_1.22fr]">
+            <div className="flex flex-col justify-between p-7 sm:p-9 lg:p-10">
+              <div>
+                <div className="flex items-start justify-between gap-4">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-ice text-brand-blue">
+                    <SingleCategoryIcon className="h-6 w-6" />
+                  </span>
+                  <span className="rounded-full border border-line px-3 py-1 text-xs font-bold text-muted">
+                    {singleCategory.count} products
+                  </span>
+                </div>
+                <p className="mt-7 text-sm font-bold uppercase tracking-[0.18em] text-brand-blue">{singleCategory.eyebrow}</p>
+                <h2 className="mt-3 text-3xl font-semibold text-ink">{singleCategory.name}</h2>
+                <p className="mt-4 max-w-xl leading-7 text-muted">{singleCategory.summary.en}</p>
+              </div>
+              <Link href={`/products/category/${singleCategory.slug}`} className="mt-8 inline-flex min-h-11 w-fit items-center gap-2 text-sm font-bold text-brand-blue transition hover:text-ink">
+                View all {singleCategory.count} models
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+
+            <div className="grid gap-3 bg-[linear-gradient(135deg,#edf8ff_0%,#f7fbfd_52%,#e8f6f1_100%)] p-5 sm:grid-cols-3 sm:p-7 lg:p-8">
+              {products.map((product) => (
+                <Link key={product.slug} href={productPath(product.slug)} className="group flex min-h-64 flex-col rounded-2xl border border-white/90 bg-white/80 p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-glow">
+                  <span className="relative block min-h-44 flex-1 overflow-hidden rounded-xl bg-gradient-to-br from-[#e8f5ff] via-[#f7fbff] to-[#e8f7f2]">
+                    <Image
+                      src={transparentProductImages[product.slug] || product.image}
+                      alt={`${product.model} connector`}
+                      fill
+                      sizes="(min-width: 1024px) 19vw, (min-width: 640px) 30vw, 88vw"
+                      className="scale-[1.12] object-contain p-1 drop-shadow-[0_16px_18px_rgba(17,69,111,0.14)] transition duration-500 group-hover:scale-[1.18]"
+                    />
+                  </span>
+                  <span className="mt-4 text-lg font-black text-ink">{product.model.split(' Pitch')[0]}</span>
+                  <span className="mt-1 text-xs font-bold uppercase tracking-[0.11em] text-brand-blue">
+                    {product.model.includes('Wafer') ? 'Wafer connector' : 'FPC / FFC connector'}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {productCategories.map((category) => {
           const Icon = category.icon
           return (
             <Link key={category.slug} href={`/products/category/${category.slug}`} className="group rounded-3xl border border-line bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-glow">
@@ -28,8 +84,9 @@ export default async function ProductsPage() {
               <p className="mt-5 text-sm font-bold text-brand-blue">View {category.count} models</p>
             </Link>
           )
-        })}
-      </div>
+          })}
+        </div>
+      )}
     </SectionShell>
   )
 }
