@@ -33,7 +33,7 @@ export function Hero() {
             {featuredProducts.map((product, index) => (
               <Link key={product.slug} href={`/products/${product.slug}`} aria-label={`View ${product.model}`} className={`group relative overflow-hidden rounded-[1.5rem] border border-white/90 bg-white/85 shadow-[0_18px_35px_rgba(17,69,111,0.12)] transition hover:-translate-y-1 hover:shadow-glow ${index === 1 ? 'mt-8 sm:mt-12' : ''}`}>
                 <span className="relative block aspect-[0.78] overflow-hidden bg-white">
-                  <Image src={product.image} alt={product.model} fill priority={index === 0} sizes="(min-width: 1024px) 23vw, (min-width: 640px) 27vw, 30vw" className="object-cover transition duration-500 group-hover:scale-105" />
+                  <Image src={product.image} alt={product.model} fill priority={index === 0} sizes="(min-width: 1024px) 23vw, (min-width: 640px) 27vw, 30vw" className="object-contain p-2 transition duration-500 group-hover:scale-105" />
                 </span>
                 <span className="block px-3 py-3 text-center text-xs font-black leading-tight text-ink sm:px-4 sm:text-sm">{product.model}</span>
               </Link>

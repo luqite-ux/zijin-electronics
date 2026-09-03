@@ -19,7 +19,7 @@ export function ProductSeries() {
         return (
           <Link key={item.slug} href={`/products/category/${item.slug}`} className="group overflow-hidden rounded-[1.5rem] border border-line bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-glow">
             <div className="relative aspect-[1.35] overflow-hidden bg-[linear-gradient(135deg,#edf8ff_0%,#f7fbfd_52%,#e8f6f1_100%)]">
-              {product ? <Image src={product.image} alt={product.model} fill sizes="(min-width: 768px) 30vw, 92vw" className="object-cover transition duration-500 group-hover:scale-105" /> : null}
+              {product ? <Image src={product.image} alt={product.model} fill sizes="(min-width: 768px) 30vw, 92vw" className="object-contain p-4 transition duration-500 group-hover:scale-105" /> : null}
             </div>
             <div className="p-6">
               <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-ice text-brand-blue"><Icon className="h-5 w-5" /></span>

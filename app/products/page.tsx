@@ -1,9 +1,16 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { SectionShell } from '@/components/section-shell'
 import { getProductCategories, getProducts } from '@/lib/products-db'
 import { productPath } from '@/lib/routes'
+
+export const metadata: Metadata = {
+  title: 'Products | Zijin Electronics Switches and Keycaps',
+  description: 'Browse piano chain switches, keycaps, and direct key switches from Zijin Electronics.',
+  alternates: { canonical: '/products' }
+}
 
 export default async function ProductsPage() {
   const [productCategories, products] = await Promise.all([getProductCategories(), getProducts()])
@@ -51,7 +58,7 @@ export default async function ProductsPage() {
                       alt={product.model}
                       fill
                       sizes="(min-width: 1024px) 19vw, (min-width: 640px) 30vw, 88vw"
-                      className="object-cover transition duration-500 group-hover:scale-105"
+                      className="object-contain p-3 transition duration-500 group-hover:scale-105"
                     />
                   </span>
                   <span className="mt-4 text-lg font-black text-ink">{product.model}</span>

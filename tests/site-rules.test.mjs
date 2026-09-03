@@ -29,6 +29,12 @@ const hero = read('components/home/hero.tsx')
 const featuredProducts = read('components/home/featured-products.tsx')
 const productSeries = read('components/home/product-series.tsx')
 const productsPage = read('app/products/page.tsx')
+const aboutPage = read('app/about/page.tsx')
+const manufacturingPage = read('app/manufacturing/page.tsx')
+const qualityPage = read('app/quality/page.tsx')
+const faqPage = read('app/faq/page.tsx')
+const contactPage = read('app/contact/page.tsx')
+const robots = read('app/robots.ts')
 const globals = read('app/globals.css')
 const layout = read('app/layout.tsx')
 const inquiryRoute = read('app/api/inquiries/route.ts')
@@ -58,9 +64,19 @@ assert.match(productsPage, /Switches, Keycaps, and Direct Key Switches/, 'the pr
 assert.match(layout, /favicon\.ico\?v=zijin-technology-20260815/, 'favicon should use a cache-busted ico file for browser tabs')
 assert.match(layout, /Piano Chain Switches, Keycaps & Direct Key Switches/, 'browser metadata should match the current homepage priority products')
 assert.doesNotMatch(layout, /0\.5mm, 1\.0mm|FPC \/ FFC|wafer connectors/i, 'browser metadata should not retain the superseded connector focus')
+assert.match(layout, /metadataBase/, 'metadata should declare the formal canonical host')
+assert.match(layout, /alternates:\s*\{\s*canonical:/, 'homepage should emit a canonical URL')
 assert.ok(fs.existsSync(path.join(root, 'public/favicon.ico')), 'standard favicon.ico should exist for browser tabs')
 assert.match(inquiryRoute, /from\(['"]inquiries['"]\)\.insert/, 'API route must insert into inquiries')
 assert.match(inquiryForm, /fetch\(['"]\/api\/inquiries['"]/, 'form must submit to real inquiry API')
+for (const [name, page] of Object.entries({ aboutPage, manufacturingPage, qualityPage, faqPage, contactPage })) {
+  assert.doesNotMatch(page, /connector|FPC|FFC|wafer/i, `${name} should not retain the superseded connector focus`)
+  assert.match(page, /export const metadata: Metadata/, `${name} should publish route-specific metadata`)
+}
+assert.match(robots, /disallow:\s*\[['"]\/admin['"],\s*['"]\/api['"]\]/, 'robots should prevent admin and API indexing')
+for (const source of [hero, featuredProducts, productSeries, productsPage]) {
+  assert.doesNotMatch(source, /object-cover/, 'priority product images should preserve the complete product with contain sizing')
+}
 
 for (const product of productCatalog.products) {
   assert.doesNotMatch(product.model, /[\u4e00-\u9fff]/, `${product.slug} model should be English-only`)

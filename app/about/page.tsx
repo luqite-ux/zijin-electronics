@@ -1,16 +1,23 @@
+import type { Metadata } from 'next'
 import { SectionShell } from '@/components/section-shell'
 import { siteInfo } from '@/lib/site-data'
 
+export const metadata: Metadata = {
+  title: 'About Zijin Electronics | Switch and Keycap Product Support',
+  description: 'Learn about Yueqing Zijin Electronics and its piano chain switches, keycaps, and direct key switches.',
+  alternates: { canonical: '/about' }
+}
+
 export default function AboutPage() {
   return (
-    <SectionShell headingLevel={1} eyebrow="About Us" title="Connector project support from Yueqing Zijin Electronics" text="The current public catalog focuses on 0.5mm, 1.0mm, and 1.25mm connectors for B2B model selection and custom production inquiries.">
+    <SectionShell headingLevel={1} eyebrow="About Us" title="Switch and keycap product support from Yueqing Zijin Electronics" text="The current public catalog focuses on piano chain switches, keycaps, and direct key switches for B2B model selection and custom production inquiries.">
       <div className="grid gap-8 lg:grid-cols-[1.1fr_.9fr]">
         <div className="rounded-[2rem] border border-line bg-white p-8 leading-8 text-muted shadow-sm">
           <p>
-            Zijin Electronics supports connector model selection and customized production for B2B customers. The current website catalog presents three focused connector pitches.
+            Zijin Electronics supports product model selection and customized production for B2B customers. The current website catalog presents three focused switch and keycap product families.
           </p>
           <p className="mt-5">
-            The 0.5mm and 1.0mm FPC / FFC connectors and 1.25mm wafer connector are intended for compact electronic assemblies, appliance controls, audio-visual equipment, medical equipment, and precision instruments. Buyers can send samples, drawings, and application requirements for project review.
+            Piano chain switches, keycaps, and direct key switches are listed for appliance and electronic control applications. Buyers can send samples, drawings, and application requirements for project review.
           </p>
         </div>
         <div className="rounded-[2rem] bg-gradient-to-br from-brand-ice to-white p-8 shadow-glow">

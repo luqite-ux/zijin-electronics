@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ProductCard } from '@/components/products/product-card'
 import { SectionShell } from '@/components/section-shell'
@@ -6,6 +7,19 @@ import { productCategories } from '@/lib/site-data'
 
 export function generateStaticParams() {
   return productCategories.map((category) => ({ slug: category.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const categories = await getProductCategories()
+  const category = categories.find((item) => item.slug === slug)
+  if (!category) return {}
+
+  return {
+    title: `${category.name} | Zijin Electronics`,
+    description: category.summary.en,
+    alternates: { canonical: `/products/category/${category.slug}` }
+  }
 }
 
 export default async function ProductCategoryPage({ params }: { params: Promise<{ slug: string }> }) {

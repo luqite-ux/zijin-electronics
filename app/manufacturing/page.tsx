@@ -1,9 +1,16 @@
+import type { Metadata } from 'next'
 import { SectionShell } from '@/components/section-shell'
 import { manufacturingFacts, stats, workflow } from '@/lib/site-data'
 
+export const metadata: Metadata = {
+  title: 'Manufacturing | Zijin Electronics Switch and Keycap Production',
+  description: 'Review Zijin Electronics manufacturing facts, workflow, and production support for switch and keycap projects.',
+  alternates: { canonical: '/manufacturing' }
+}
+
 export default function ManufacturingPage() {
   return (
-    <SectionShell headingLevel={1} eyebrow="Manufacturing" title="Production capability for custom connector projects" text="A 2,200 m2 production site with 12 workshops and 4 production lines supports connector project review, production, and outgoing inspection.">
+    <SectionShell headingLevel={1} eyebrow="Manufacturing" title="Production capability for custom switch and keycap projects" text="A 2,200 m2 production site with 12 workshops and 4 production lines supports product review, production, and outgoing inspection.">
       <div className="grid gap-6 lg:grid-cols-[.8fr_1.2fr]">
         <div className="rounded-[2rem] bg-gradient-to-br from-brand-blue to-[#3aa2e8] p-8 text-white shadow-glow">
           <h2 className="text-3xl font-semibold tracking-tight">Factory facts</h2>

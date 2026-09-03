@@ -19,7 +19,7 @@ export function FeaturedProducts() {
               alt={product.model}
               fill
               sizes="(min-width: 1280px) 29vw, (min-width: 768px) 44vw, 92vw"
-              className="object-cover transition duration-500 group-hover:scale-105"
+              className="object-contain p-3 transition duration-500 group-hover:scale-105"
             />
           </div>
           <p className="mt-5 text-xs font-bold uppercase text-brand-blue">{product.categoryName}</p>
