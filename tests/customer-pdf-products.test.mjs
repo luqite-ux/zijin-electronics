@@ -28,15 +28,8 @@ assert.deepEqual(
 
 assert.equal(new Set(catalog.products.map((product) => product.image)).size, 3, 'each priority product should have its own customer-sourced image')
 
-const localImageHashes = catalog.products.map((product) => {
-  const file = path.join(root, 'public', product.image.replace(/^\//, ''))
-  assert.ok(fs.existsSync(file), `${product.slug} should keep its source asset in the repository`)
-  return crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')
-})
-assert.equal(new Set(localImageHashes).size, 3, 'each priority product should have distinct source image content')
-
 for (const product of catalog.products) {
-  assert.match(product.image, /^\/images\/products\/priority\/.+\.jpg$/, `${product.slug} should use a local customer-sourced catalog image`)
+  assert.match(product.image, /^https:\/\/pub-c7a22068052144a5805830c30d280128\.r2\.dev\/products\/zijin-electronics\/catalog\/.+\.jpg$/, `${product.slug} should use a public R2 product image`)
   assert.match(product.sourceUrl, /zijindz\.com\/wap\/Products\.asp\?BigClassID=(1|4|9)/, `${product.slug} should retain its original catalog provenance`)
   assert.doesNotMatch(JSON.stringify(product), /广东一方|Guangdong Yifang|hongwo\.net|88662005/i, `${product.slug} should not expose the PDF supplier identity`)
 }
