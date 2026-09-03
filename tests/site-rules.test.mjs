@@ -39,6 +39,7 @@ const globals = read('app/globals.css')
 const layout = read('app/layout.tsx')
 const inquiryRoute = read('app/api/inquiries/route.ts')
 const inquiryForm = read('components/contact/inquiry-form.tsx')
+const footer = read('components/site-footer.tsx')
 
 assert.match(siteData, /Zijin Electronics/, 'brand name should be present')
 assert.match(siteData, /乐清市紫金电子有限公司/, 'Chinese admin display name should be preserved')
@@ -69,6 +70,7 @@ assert.match(layout, /alternates:\s*\{\s*canonical:/, 'homepage should emit a ca
 assert.ok(fs.existsSync(path.join(root, 'public/favicon.ico')), 'standard favicon.ico should exist for browser tabs')
 assert.match(inquiryRoute, /from\(['"]inquiries['"]\)\.insert/, 'API route must insert into inquiries')
 assert.match(inquiryForm, /fetch\(['"]\/api\/inquiries['"]/, 'form must submit to real inquiry API')
+assert.match(footer, /formatFooterCopyright/, 'footer copyright must normalize the company-name punctuation')
 for (const [name, page] of Object.entries({ aboutPage, manufacturingPage, qualityPage, faqPage, contactPage })) {
   assert.doesNotMatch(page, /connector|FPC|FFC|wafer/i, `${name} should not retain the superseded connector focus`)
   assert.match(page, /export const metadata: Metadata/, `${name} should publish route-specific metadata`)

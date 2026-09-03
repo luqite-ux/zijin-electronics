@@ -3,6 +3,11 @@ import { Mail, MapPin, Phone } from 'lucide-react'
 import { inquiryPath } from '@/lib/routes'
 import { productCategories, siteInfo } from '@/lib/site-data'
 
+export function formatFooterCopyright(company: string, year = new Date().getFullYear()) {
+  const legalName = company.replace(/[.。]+\s*$/u, '')
+  return `© ${year} ${legalName}. All rights reserved.`
+}
+
 export function SiteFooter() {
   return (
     <footer className="border-t border-line bg-white px-5 py-12 sm:px-8">
@@ -34,7 +39,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="mx-auto mt-10 max-w-7xl border-t border-line pt-6 text-sm text-muted">
-        (c) 2026 {siteInfo.company}. All rights reserved.
+        {formatFooterCopyright(siteInfo.company)}
       </div>
     </footer>
   )
