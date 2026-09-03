@@ -32,16 +32,26 @@ export type Product = {
 }
 
 const categoryMeta: Record<string, { eyebrow: string; summary: string; icon: LucideIcon }> = {
-  'pitch-connectors': {
-    eyebrow: 'Focused connector range',
-    summary: '0.5mm and 1.0mm FPC / FFC connectors plus a 1.25mm wafer connector for compact electronic and wire-to-board connections.',
+  'piano-chain-switches': {
+    eyebrow: 'Priority product family',
+    summary: 'Piano chain switch series from the customer’s original product catalog.',
+    icon: Zap
+  },
+  keycaps: {
+    eyebrow: 'Priority product family',
+    summary: 'Keycap series from the customer’s original product catalog.',
+    icon: Sparkles
+  },
+  'direct-key-switches': {
+    eyebrow: 'Priority product family',
+    summary: 'Direct key switch series from the customer’s original product catalog.',
     icon: Cable
   }
 }
 
 const defaultCategoryMeta = {
   eyebrow: 'Catalog product series',
-  summary: 'Connector models selected from the customer-supplied product catalog for B2B project inquiries.',
+  summary: 'Product series selected from the customer-supplied product catalog for B2B project inquiries.',
   icon: Zap
 }
 
@@ -49,9 +59,9 @@ export const siteInfo = {
   brand: 'Zijin Electronics',
   company: 'Yueqing Zijin Electronics Co., Ltd.',
   adminDisplayName: '乐清市紫金电子有限公司',
-  tagline: '0.5mm, 1.0mm & 1.25mm Connector Solutions for Global Manufacturers',
+  tagline: 'Piano Chain Switches, Keycaps & Direct Key Switches',
   description:
-    'Yueqing Zijin Electronics supplies 0.5mm and 1.0mm FPC / FFC connectors and 1.25mm wafer connectors for appliance, audio-visual, medical equipment, and precision instrument projects.',
+    'Yueqing Zijin Electronics presents piano chain switches, keycaps, and direct key switches for appliance and electronic control projects.',
   phone: '+86 138 1976 1299',
   email: 'info@zijinglobal.com',
   address: 'No.175 Fanxing Road, Shifan Street, Yueqing, Zhejiang, China',
@@ -77,7 +87,7 @@ export const stats = [
   { value: '2,200 m2', label: 'Factory Area' },
   { value: '12', label: 'Workshops' },
   { value: '4', label: 'Production Lines' },
-  { value: '3', label: 'Confirmed Connector Pitches' },
+  { value: '3', label: 'Priority Product Families' },
   { value: '15 days', label: 'Regular Lead Time' }
 ]
 
@@ -99,18 +109,18 @@ export const featuredProducts = selectHomeFeaturedProducts(products)
 
 export const solutions = [
   {
-    title: '0.5mm FPC / FFC Connectors',
-    text: 'SMT side-entry connectors with top-contact and bottom-contact configuration options.',
-    icon: Cable
+    title: 'Piano Chain Switches',
+    text: 'A priority product family from Zijin Electronics’ original catalog.',
+    icon: Zap
   },
   {
-    title: '1.0mm FPC / FFC Connectors',
-    text: 'Flexible-circuit connector options for appliance controls and compact electronic assemblies.',
-    icon: Cable
+    title: 'Keycaps',
+    text: 'A priority product family from Zijin Electronics’ original catalog.',
+    icon: Sparkles
   },
   {
-    title: '1.25mm Wafer Connectors',
-    text: '1.25T-nAWB/AB series with side-entry and top-entry configurations.',
+    title: 'Direct Key Switches',
+    text: 'A priority product family from Zijin Electronics’ original catalog.',
     icon: Cable
   },
   {
@@ -122,9 +132,7 @@ export const solutions = [
 
 export const manufacturingFacts = [
   '2,200 m2 production site with 12 workshops and 4 production lines',
-  'Daily capacity: 30,000 connector components',
-  'Current public catalog: 0.5mm and 1.0mm FPC / FFC connectors',
-  'Current public catalog: 1.25mm wafer connectors',
+  'Current public catalog includes piano chain switches, keycaps, and direct key switches',
   'Regular order lead time is about 15 days after confirmed requirements'
 ]
 
@@ -140,7 +148,7 @@ export const workflow = [
 export const faqs = [
   {
     question: 'What product models are available?',
-    answer: 'The current website catalog includes 0.5mm and 1.0mm FPC / FFC connectors plus a 1.25mm wafer connector. Buyers can send the pitch, application, drawing, or sample requirement for review.'
+    answer: 'The current website highlights piano chain switches, keycaps, and direct key switches. Buyers can send the model, application, drawing, or sample requirement for review.'
   },
   {
     question: 'Do you support customized size, material, color, or process?',

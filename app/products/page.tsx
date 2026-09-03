@@ -5,19 +5,13 @@ import { SectionShell } from '@/components/section-shell'
 import { getProductCategories, getProducts } from '@/lib/products-db'
 import { productPath } from '@/lib/routes'
 
-const transparentProductImages: Record<string, string> = {
-  '0-5mm-pitch-connector': '/images/products/transparent/0-5mm-connector-complete.webp',
-  '1-0mm-pitch-connector': '/images/products/transparent/1-0mm-connector.webp',
-  '1-25mm-pitch-connector': '/images/products/transparent/1-25mm-connectors.webp',
-}
-
 export default async function ProductsPage() {
   const [productCategories, products] = await Promise.all([getProductCategories(), getProducts()])
   const singleCategory = productCategories.length === 1 ? productCategories[0] : null
   const SingleCategoryIcon = singleCategory?.icon
 
   return (
-    <SectionShell headingLevel={1} eyebrow="Products" title="0.5mm, 1.0mm, and 1.25mm connector catalog" text="Browse the focused connector range for FPC / FFC and wire-to-board applications. Every page supports B2B technical inquiry and project discussion.">
+    <SectionShell headingLevel={1} eyebrow="Products" title="Switches, Keycaps, and Direct Key Switches" text="Browse Zijin Electronics’ priority product families. Every page supports B2B technical inquiry and project discussion.">
       <div className="mb-10 flex flex-wrap gap-3">
         {productCategories.map((category) => (
           <Link key={category.slug} href={`/products/category/${category.slug}`} className="rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:border-brand-blue hover:text-brand-blue">
@@ -53,16 +47,16 @@ export default async function ProductsPage() {
                 <Link key={product.slug} href={productPath(product.slug)} className="group flex min-h-64 flex-col rounded-2xl border border-white/90 bg-white/80 p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-glow">
                   <span className="relative block min-h-44 flex-1 overflow-hidden rounded-xl bg-gradient-to-br from-[#e8f5ff] via-[#f7fbff] to-[#e8f7f2]">
                     <Image
-                      src={transparentProductImages[product.slug] || product.image}
-                      alt={`${product.model} connector`}
+                      src={product.image}
+                      alt={product.model}
                       fill
                       sizes="(min-width: 1024px) 19vw, (min-width: 640px) 30vw, 88vw"
-                      className="scale-[1.12] object-contain p-1 drop-shadow-[0_16px_18px_rgba(17,69,111,0.14)] transition duration-500 group-hover:scale-[1.18]"
+                      className="object-cover transition duration-500 group-hover:scale-105"
                     />
                   </span>
-                  <span className="mt-4 text-lg font-black text-ink">{product.model.split(' Pitch')[0]}</span>
+                  <span className="mt-4 text-lg font-black text-ink">{product.model}</span>
                   <span className="mt-1 text-xs font-bold uppercase tracking-[0.11em] text-brand-blue">
-                    {product.model.includes('Wafer') ? 'Wafer connector' : 'FPC / FFC connector'}
+                    {product.categoryName}
                   </span>
                 </Link>
               ))}

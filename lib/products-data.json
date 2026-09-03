@@ -1,49 +1,63 @@
 {
   "categories": [
     {
-      "id": "pdf-pitch-connectors",
-      "slug": "pitch-connectors",
-      "name": "Pitch Connectors",
-      "sourceName": "客户确认的0.5mm、1.0mm、1.25mm接插件",
-      "count": 3
+      "id": "legacy-category-1",
+      "slug": "piano-chain-switches",
+      "name": "Piano Chain Switches",
+      "sourceName": "客户原站产品中心：直链开关（琴链开关）",
+      "count": 1
+    },
+    {
+      "id": "legacy-category-4",
+      "slug": "keycaps",
+      "name": "Keycaps",
+      "sourceName": "客户原站产品中心：按键帽",
+      "count": 1
+    },
+    {
+      "id": "legacy-category-9",
+      "slug": "direct-key-switches",
+      "name": "Direct Key Switches",
+      "sourceName": "客户原站产品中心：直键开关",
+      "count": 1
     }
   ],
   "products": [
     {
-      "id": "pdf-0-5mm",
-      "slug": "0-5mm-pitch-connector",
-      "model": "0.5mm Pitch FPC / FFC Connector",
-      "categorySlug": "pitch-connectors",
-      "categoryName": "Pitch Connectors",
-      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/pdf-catalog/0-5mm-pitch-connector-v2.webp",
-      "sourceUrl": "",
-      "summary": "0.5mm Pitch FPC / FFC Connector with SMT side-entry configurations. Technical drawings show top-contact and bottom-contact options, with 1.2mm, 1.5mm, and 2.0mm height variants.",
-      "applications": ["Compact electronic assemblies", "Flexible printed circuit connections", "Appliance control modules", "Precision equipment interfaces"],
-      "features": ["0.5mm pitch", "SMT side-entry configuration", "Top-contact and bottom-contact options", "1.2mm, 1.5mm, and 2.0mm height variants shown in the technical catalog"]
+      "id": "legacy-product-618",
+      "slug": "piano-chain-switch",
+      "model": "Piano Chain Switch",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "/images/products/priority/piano-chain-switch.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano chain switch series selected from Zijin Electronics' original product catalog.",
+      "applications": ["Appliance controls", "Electronic control panels"],
+      "features": ["Piano chain switch series", "Model selection support"]
     },
     {
-      "id": "pdf-1-0mm",
-      "slug": "1-0mm-pitch-connector",
-      "model": "1.0mm Pitch FPC / FFC Connector",
-      "categorySlug": "pitch-connectors",
-      "categoryName": "Pitch Connectors",
-      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/pdf-catalog/1-0mm-pitch-connector-v2.webp",
-      "sourceUrl": "",
-      "summary": "1.0mm Pitch FPC / FFC Connector with SMT side-entry configurations. Technical drawings identify top-contact and bottom-contact options for flexible-circuit connection projects.",
-      "applications": ["Flexible printed circuit connections", "Appliance control modules", "Audio-visual equipment", "Precision electronic assemblies"],
-      "features": ["1.0mm pitch", "SMT side-entry configuration", "Top-contact and bottom-contact options", "Catalog-derived product image and configuration details"]
+      "id": "legacy-product-50",
+      "slug": "keycaps",
+      "model": "Keycaps",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "/images/products/priority/keycaps.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycap series selected from Zijin Electronics' original product catalog.",
+      "applications": ["Appliance controls", "Electronic control panels"],
+      "features": ["Keycap series", "Model selection support"]
     },
     {
-      "id": "pdf-1-25mm",
-      "slug": "1-25mm-pitch-connector",
-      "model": "1.25mm Pitch Wafer Connector",
-      "categorySlug": "pitch-connectors",
-      "categoryName": "Pitch Connectors",
-      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/pdf-catalog/1-25mm-pitch-connector-v2.webp",
-      "sourceUrl": "",
-      "summary": "1.25mm Pitch Wafer Connector based on the 1.25T-nAWB/AB series, with side-entry and top-entry configurations for compact wire-to-board connections.",
-      "applications": ["Compact wire-to-board connections", "Appliance control modules", "Electronic equipment", "Precision instrument assemblies"],
-      "features": ["1.25mm pitch", "1.25T-nAWB/AB catalog series", "Side-entry configuration", "Top-entry configuration"]
+      "id": "legacy-product-353",
+      "slug": "direct-key-switch",
+      "model": "Direct Key Switch",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "/images/products/priority/direct-key-switch.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct key switch series selected from Zijin Electronics' original product catalog.",
+      "applications": ["Appliance controls", "Electronic control panels"],
+      "features": ["Direct key switch series", "Model selection support"]
     }
   ]
 }

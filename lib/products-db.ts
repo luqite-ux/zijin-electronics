@@ -2,7 +2,7 @@ import { getSupabaseClient, getTenantId } from '@/lib/supabase'
 import { productCategories as fallbackCategories, products as fallbackProducts, type Product, type ProductCategory } from '@/lib/site-data'
 import { isApprovedProductSlug } from '@/lib/home-featured-products'
 
-const approvedCategorySlug = 'pitch-connectors'
+const approvedCategorySlugs = new Set(['piano-chain-switches', 'keycaps', 'direct-key-switches'])
 
 function pickI18n(value: unknown, preferred = 'en') {
   if (!value || typeof value !== 'object' || Array.isArray(value)) return ''
@@ -69,7 +69,7 @@ export async function getProductCategories(): Promise<ProductCategory[]> {
     .order('sort_order', { ascending: true })
 
   if (error || !data?.length) return fallbackCategories
-  const approved = data.filter((row) => row.slug === approvedCategorySlug)
+  const approved = data.filter((row) => typeof row.slug === 'string' && approvedCategorySlugs.has(row.slug))
   return approved.length ? approved.map((row) => rowToCategory(row as Record<string, unknown>)) : fallbackCategories
 }
 

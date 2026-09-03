@@ -5,8 +5,8 @@ import { siteInfo } from '@/lib/site-data'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Zijin Electronics | 0.5mm, 1.0mm & 1.25mm Connectors',
-  description: 'Explore 0.5mm and 1.0mm FPC / FFC connectors and 1.25mm wafer connectors from Yueqing Zijin Electronics for B2B project inquiries.',
+  title: 'Zijin Electronics | Piano Chain Switches, Keycaps & Direct Key Switches',
+  description: 'Explore piano chain switches, keycaps, and direct key switches from Yueqing Zijin Electronics for B2B project inquiries.',
   icons: {
     icon: [
       { url: '/favicon.ico?v=zijin-technology-20260815', sizes: 'any' },

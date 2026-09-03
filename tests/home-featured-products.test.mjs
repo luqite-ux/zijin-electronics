@@ -12,15 +12,17 @@ const featured = selectHomeFeaturedProducts(catalog.products)
 assert.deepEqual(
   featured.map((product) => product.model),
   [
-    '0.5mm Pitch FPC / FFC Connector',
-    '1.0mm Pitch FPC / FFC Connector',
-    '1.25mm Pitch Wafer Connector'
+    'Piano Chain Switch',
+    'Keycaps',
+    'Direct Key Switch'
   ],
-  'homepage should feature the confirmed 0.5mm, 1.0mm, and 1.25mm connector models in order'
+  'homepage should feature the three customer-prioritized switch and keycap series in order'
 )
-assert.equal(featured.length, 3, 'homepage should show exactly three confirmed connector models')
-assert.equal(new Set(featured.map((product) => product.image)).size, 3, 'each featured connector should use its own catalog image')
-assert.equal(isApprovedProductSlug('0-5mm-pitch-connector'), true, 'confirmed product slugs should be public')
+assert.equal(featured.length, 3, 'homepage should show exactly three prioritized product series')
+assert.equal(new Set(featured.map((product) => product.image)).size, 3, 'each prioritized series should use its own customer product image')
+assert.equal(isApprovedProductSlug('piano-chain-switch'), true, 'piano chain switch should be public')
+assert.equal(isApprovedProductSlug('keycaps'), true, 'keycaps should be public')
+assert.equal(isApprovedProductSlug('direct-key-switch'), true, 'direct key switch should be public')
 assert.equal(isApprovedProductSlug('product-618'), false, 'legacy product slugs should remain private even if a database row is reactivated')
 
-console.log('homepage featured connector selection passed')
+console.log('homepage featured switch and keycap selection passed')

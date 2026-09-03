@@ -4,12 +4,6 @@ import { ArrowRight } from 'lucide-react'
 import { featuredProducts } from '@/lib/site-data'
 import { productPath } from '@/lib/routes'
 
-const transparentProductImages: Record<string, string> = {
-  '0-5mm-pitch-connector': '/images/products/transparent/0-5mm-connector-complete.webp',
-  '1-0mm-pitch-connector': '/images/products/transparent/1-0mm-connector.webp',
-  '1-25mm-pitch-connector': '/images/products/transparent/1-25mm-connectors.webp',
-}
-
 export function FeaturedProducts() {
   return (
     <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
@@ -21,11 +15,11 @@ export function FeaturedProducts() {
         >
           <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-[#e8f5ff] via-[#f4faff] to-[#e8f7f2]">
             <Image
-              src={transparentProductImages[product.slug] || product.image}
-              alt={`${product.model} connector`}
+              src={product.image}
+              alt={product.model}
               fill
               sizes="(min-width: 1280px) 29vw, (min-width: 768px) 44vw, 92vw"
-              className="scale-[1.12] object-contain p-1 drop-shadow-[0_18px_20px_rgba(17,69,111,0.16)] transition duration-500 group-hover:scale-[1.18]"
+              className="object-cover transition duration-500 group-hover:scale-105"
             />
           </div>
           <p className="mt-5 text-xs font-bold uppercase text-brand-blue">{product.categoryName}</p>

@@ -1,7 +1,7 @@
 const homeFeaturedProductSlugs = [
-  '0-5mm-pitch-connector',
-  '1-0mm-pitch-connector',
-  '1-25mm-pitch-connector'
+  'piano-chain-switch',
+  'keycaps',
+  'direct-key-switch'
 ] as const
 
 export function isApprovedProductSlug(_slug: string): boolean {
