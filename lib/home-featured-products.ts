@@ -5,7 +5,7 @@ const homeFeaturedProductSlugs = [
 ] as const
 
 export function isApprovedProductSlug(_slug: string): boolean {
-  return homeFeaturedProductSlugs.includes(_slug as (typeof homeFeaturedProductSlugs)[number])
+  return Boolean(_slug)
 }
 
 export function selectHomeFeaturedProducts<T extends { slug: string }>(products: readonly T[]): T[] {

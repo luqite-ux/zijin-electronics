@@ -5,59 +5,2345 @@
       "slug": "piano-chain-switches",
       "name": "Piano Chain Switches",
       "sourceName": "客户原站产品中心：直链开关（琴链开关）",
-      "count": 1
+      "count": 22
     },
     {
       "id": "legacy-category-4",
       "slug": "keycaps",
       "name": "Keycaps",
       "sourceName": "客户原站产品中心：按键帽",
-      "count": 1
+      "count": 96
     },
     {
       "id": "legacy-category-9",
       "slug": "direct-key-switches",
       "name": "Direct Key Switches",
       "sourceName": "客户原站产品中心：直键开关",
-      "count": 1
+      "count": 11
     }
   ],
   "products": [
     {
       "id": "legacy-product-618",
-      "slug": "piano-chain-switch",
-      "model": "Piano Chain Switch",
+      "slug": "piano-chain-switch-618-piano-chain-switches-model-618",
+      "model": "Piano Chain Switches Model 618",
       "categorySlug": "piano-chain-switches",
       "categoryName": "Piano Chain Switches",
-      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0001-20191203134636053605.jpg",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0618-20191203134636053605.jpg",
       "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
-      "summary": "Piano chain switch series selected from Zijin Electronics' original product catalog.",
-      "applications": ["Appliance controls", "Electronic control panels"],
-      "features": ["Piano chain switch series", "Model selection support"]
+      "summary": "Piano Chain Switches model Piano Chain Switches Model 618 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-597",
+      "slug": "piano-chain-switch-597-pbs-21h18",
+      "model": "PBS-21H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0597-2019120310230987987.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-21H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-598",
+      "slug": "piano-chain-switch-598-pbs-21h18a",
+      "model": "PBS-21H18A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0598-20191203102450185018.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-21H18A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-599",
+      "slug": "piano-chain-switch-599-pbs-22h18",
+      "model": "PBS-22H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0599-20191203102538153815.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-22H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-600",
+      "slug": "piano-chain-switch-600-pbs-22h18a",
+      "model": "PBS-22H18A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0600-20191203102519631963.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-22H18A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-601",
+      "slug": "piano-chain-switch-601-pbs-22hb",
+      "model": "PBS-22HB",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0601-20191203102716461646.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-22HB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-602",
+      "slug": "piano-chain-switch-602-pbs-42h14a",
+      "model": "PBS-42H14A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0602-2019120310280839839.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-42H14A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-603",
+      "slug": "piano-chain-switch-603-pbs-42h18",
+      "model": "PBS-42H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0603-20191203102949284928.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-42H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-604",
+      "slug": "piano-chain-switch-604-pbs-62h18",
+      "model": "PBS-62H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0604-2019120310290564564.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-62H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-605",
+      "slug": "piano-chain-switch-605-pbs-82h18",
+      "model": "PBS-82H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0605-20191203103065306530.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-82H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-606",
+      "slug": "piano-chain-switch-606-pbs-102h18",
+      "model": "PBS-102H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0606-20191203103158075807.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-102H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-607",
+      "slug": "piano-chain-switch-607-pbs-122h18",
+      "model": "PBS-122H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0607-20191203103254445444.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-122H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-608",
+      "slug": "piano-chain-switch-608-pbs-142h18",
+      "model": "PBS-142H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0608-20191203103246254625.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-142H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-609",
+      "slug": "piano-chain-switch-609-pbs-142h18",
+      "model": "PBS-142H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0609-20191203103392439243.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-142H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-610",
+      "slug": "piano-chain-switch-610-pbs-162h18",
+      "model": "PBS-162H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0610-20191203103437083708.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-162H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-611",
+      "slug": "piano-chain-switch-611-pbs-162h18",
+      "model": "PBS-162H18",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0611-20191203103537983798.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-162H18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-612",
+      "slug": "piano-chain-switch-612-pbs",
+      "model": "PBS-",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0612-20191203103567696769.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS- from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-613",
+      "slug": "piano-chain-switch-613-kan-22",
+      "model": "KAN-22",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0613-20191203103644004400.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model KAN-22 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-614",
+      "slug": "piano-chain-switch-614-pbs-22h18-10s12a",
+      "model": "PBS-22H18-10S12A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0614-20191203130879857985.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-22H18-10S12A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-615",
+      "slug": "piano-chain-switch-615-pbs-12h18-20s8a",
+      "model": "PBS-12H18-20S8A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0615-20191203130832923292.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-12H18-20S8A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-616",
+      "slug": "piano-chain-switch-616-pbs-42h18-15s11a",
+      "model": "PBS-42H18-15S11A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0616-20191203130926152615.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-42H18-15S11A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-617",
+      "slug": "piano-chain-switch-617-pbs-62h18-17-5s8a",
+      "model": "PBS-62H18-17.5S8A",
+      "categorySlug": "piano-chain-switches",
+      "categoryName": "Piano Chain Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0617-20191203130942804280.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=1",
+      "summary": "Piano Chain Switches model PBS-62H18-17.5S8A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Piano Chain Switches series",
+        "Model selection support"
+      ]
     },
     {
       "id": "legacy-product-50",
-      "slug": "keycaps",
-      "model": "Keycaps",
+      "slug": "keycap-50-a01",
+      "model": "A01",
       "categorySlug": "keycaps",
       "categoryName": "Keycaps",
       "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0050-20191201102547904790.jpg",
       "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
-      "summary": "Keycap series selected from Zijin Electronics' original product catalog.",
-      "applications": ["Appliance controls", "Electronic control panels"],
-      "features": ["Keycap series", "Model selection support"]
+      "summary": "Keycaps model A01 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-51",
+      "slug": "keycap-51-a02",
+      "model": "A02",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0051-20191201102658545854.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A02 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-52",
+      "slug": "keycap-52-a02",
+      "model": "A02",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0052-20191201102795649564.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A02 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-53",
+      "slug": "keycap-53-a03",
+      "model": "A03",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0053-20191201102773457345.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A03 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-54",
+      "slug": "keycap-54-a04",
+      "model": "A04",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0054-20191201102898459845.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A04 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-55",
+      "slug": "keycap-55-a05",
+      "model": "A05",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0055-20191201102950775077.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A05 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-56",
+      "slug": "keycap-56-a06",
+      "model": "A06",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0056-20191201103166666666.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A06 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-57",
+      "slug": "keycap-57-a07",
+      "model": "A07",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0057-20191201103169126912.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A07 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-58",
+      "slug": "keycap-58-a08",
+      "model": "A08",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0058-20191201103221912191.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A08 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-59",
+      "slug": "keycap-59-a09",
+      "model": "A09",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0059-2019120110330101101.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A09 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-60",
+      "slug": "keycap-60-a10",
+      "model": "A10",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0060-20191201103385548554.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A10 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-61",
+      "slug": "keycap-61-a11-2",
+      "model": "A11 2",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0061-20191201103420902090.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A11 2 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-62",
+      "slug": "keycap-62-a11",
+      "model": "A11",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0062-20191201103486138613.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A11 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-63",
+      "slug": "keycap-63-a12",
+      "model": "A12",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0063-20191201103568636863.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A12 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-64",
+      "slug": "keycap-64-a13",
+      "model": "A13",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0064-20191201103557295729.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A13 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-65",
+      "slug": "keycap-65-a14",
+      "model": "A14",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0065-20191201103649704970.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-66",
+      "slug": "keycap-66-a14",
+      "model": "A14",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0066-2019120110360450450.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-67",
+      "slug": "keycap-67-a14",
+      "model": "A14",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0067-20191201103713741374.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-68",
+      "slug": "keycap-68-a14",
+      "model": "A14",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0068-2019120110380293293.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-69",
+      "slug": "keycap-69-a14",
+      "model": "A14",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0069-20191201103818591859.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-70",
+      "slug": "keycap-70-a15",
+      "model": "A15",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0070-20191201103973047304.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A15 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-71",
+      "slug": "keycap-71-a16",
+      "model": "A16",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0071-20191201103961396139.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A16 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-72",
+      "slug": "keycap-72-a17",
+      "model": "A17",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0072-20191201104043824382.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A17 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-73",
+      "slug": "keycap-73-a17",
+      "model": "A17",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0073-20191201104094379437.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A17 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-74",
+      "slug": "keycap-74-a18",
+      "model": "A18",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0074-20191201104146794679.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-75",
+      "slug": "keycap-75-a19",
+      "model": "A19",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0075-20191201104144644464.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A19 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-76",
+      "slug": "keycap-76-a20",
+      "model": "A20",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0076-2019120110420800800.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A20 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-77",
+      "slug": "keycap-77-a20",
+      "model": "A20",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0077-20191201104275987598.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A20 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-78",
+      "slug": "keycap-78-a21",
+      "model": "A21",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0078-20191201104356655665.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A21 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-79",
+      "slug": "keycap-79-a22",
+      "model": "A22",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0079-20191201104366546654.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A22 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-80",
+      "slug": "keycap-80-a23",
+      "model": "A23",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0080-20191201104446164616.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A23 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-81",
+      "slug": "keycap-81-a23",
+      "model": "A23",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0081-20191201104472447244.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A23 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-82",
+      "slug": "keycap-82-a24",
+      "model": "A24",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0082-20191201104535253525.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A24 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-83",
+      "slug": "keycap-83-a24",
+      "model": "A24",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0083-20191201104612591259.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A24 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-84",
+      "slug": "keycap-84-a24",
+      "model": "A24",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0084-20191201104620622062.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A24 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-85",
+      "slug": "keycap-85-a25",
+      "model": "A25",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0085-20191201104788608860.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A25 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-86",
+      "slug": "keycap-86-a26",
+      "model": "A26",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0086-20191201104743984398.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A26 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-87",
+      "slug": "keycap-87-a27",
+      "model": "A27",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0087-20191201104851645164.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A27 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-88",
+      "slug": "keycap-88-a28",
+      "model": "A28",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0088-20191201104878527852.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A28 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-89",
+      "slug": "keycap-89-a29-1",
+      "model": "A29 1",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0089-2019120110480277277.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A29 1 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-90",
+      "slug": "keycap-90-a29-2",
+      "model": "A29 2",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0090-20191201104910951095.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A29 2 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-91",
+      "slug": "keycap-91-a29-3",
+      "model": "A29 3",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0091-20191201104936413641.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A29 3 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-92",
+      "slug": "keycap-92-a30",
+      "model": "A30",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0092-20191201105010331033.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A30 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-93",
+      "slug": "keycap-93-a31",
+      "model": "A31",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0093-20191201105031863186.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A31 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-94",
+      "slug": "keycap-94-a32",
+      "model": "A32",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0094-20191201105174767476.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A32 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-95",
+      "slug": "keycap-95-a33",
+      "model": "A33",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0095-20191201105128282828.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A33 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-96",
+      "slug": "keycap-96-a37",
+      "model": "A37",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0096-20191201105298579857.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A37 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-97",
+      "slug": "keycap-97-a37",
+      "model": "A37",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0097-20191201105210361036.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A37 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-98",
+      "slug": "keycap-98-a38",
+      "model": "A38",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0098-20191201105363656365.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A38 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-99",
+      "slug": "keycap-99-a39",
+      "model": "A39",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0099-20191201105431993199.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A39 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-100",
+      "slug": "keycap-100-a40",
+      "model": "A40",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0100-20191201105423352335.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A40 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-101",
+      "slug": "keycap-101-a43-1",
+      "model": "A43 1",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0101-20191201105590649064.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A43 1 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-102",
+      "slug": "keycap-102-a43-2",
+      "model": "A43 2",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0102-20191201105548294829.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A43 2 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-103",
+      "slug": "keycap-103-a43-3",
+      "model": "A43 3",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0103-20191201105655815581.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A43 3 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-104",
+      "slug": "keycap-104-a43-4",
+      "model": "A43 4",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0104-20191201105630223022.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A43 4 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-105",
+      "slug": "keycap-105-a44",
+      "model": "A44",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0105-20191201105722822282.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A44 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-106",
+      "slug": "keycap-106-a45",
+      "model": "A45",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0106-20191201105738183818.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A45 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-107",
+      "slug": "keycap-107-a46",
+      "model": "A46",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0107-20191201105874857485.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A46 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-108",
+      "slug": "keycap-108-a48",
+      "model": "A48",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0108-20191201105888558855.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A48 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-109",
+      "slug": "keycap-109-a50",
+      "model": "A50",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0109-20191201105930873087.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A50 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-110",
+      "slug": "keycap-110-a55",
+      "model": "A55",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0110-20191201105993469346.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A55 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-111",
+      "slug": "keycap-111-a56",
+      "model": "A56",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0111-20191201110016371637.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A56 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-112",
+      "slug": "keycap-112-a57",
+      "model": "A57",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0112-20191201111786448644.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A57 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-113",
+      "slug": "keycap-113-a61",
+      "model": "A61",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0113-20191201111827722772.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A61 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-114",
+      "slug": "keycap-114-a64",
+      "model": "A64",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0114-20191201111852285228.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A64 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-115",
+      "slug": "keycap-115-a66",
+      "model": "A66",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0115-20191201111979927992.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A66 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-116",
+      "slug": "keycap-116-a66",
+      "model": "A66",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0116-20191201111981838183.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A66 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-117",
+      "slug": "keycap-117-a69",
+      "model": "A69",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0117-20191201112037133713.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A69 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-118",
+      "slug": "keycap-118-a70",
+      "model": "A70",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0118-20191201112048144814.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A70 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-119",
+      "slug": "keycap-119-a71",
+      "model": "A71",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0119-2019120111210787787.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A71 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-120",
+      "slug": "keycap-120-a77",
+      "model": "A77",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0120-20191201112175427542.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A77 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-121",
+      "slug": "keycap-121-a79",
+      "model": "A79",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0121-20191201112278747874.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A79 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-122",
+      "slug": "keycap-122-a80",
+      "model": "A80",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0122-2019120111220384384.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A80 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-123",
+      "slug": "keycap-123-a93",
+      "model": "A93",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0123-20191201112311801180.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A93 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-124",
+      "slug": "keycap-124-a94",
+      "model": "A94",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0124-20191201112395809580.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A94 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-125",
+      "slug": "keycap-125-a95",
+      "model": "A95",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0125-20191201112473637363.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A95 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-126",
+      "slug": "keycap-126-a95",
+      "model": "A95",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0126-20191201112417731773.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A95 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-127",
+      "slug": "keycap-127-a96",
+      "model": "A96",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0127-20191201112580638063.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A96 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-128",
+      "slug": "keycap-128-a99",
+      "model": "A99",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0128-20191201112523012301.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A99 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-129",
+      "slug": "keycap-129-a100",
+      "model": "A100",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0129-20191201112642594259.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A100 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-130",
+      "slug": "keycap-130-a101",
+      "model": "A101",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0130-20191201112675487548.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A101 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-131",
+      "slug": "keycap-131-a105",
+      "model": "A105",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0131-201912011127002424.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A105 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-132",
+      "slug": "keycap-132-a106",
+      "model": "A106",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0132-20191201112775287528.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A106 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-133",
+      "slug": "keycap-133-a106",
+      "model": "A106",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0133-20191201112726752675.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A106 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-134",
+      "slug": "keycap-134-a111",
+      "model": "A111",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0134-2019120111280312312.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A111 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-135",
+      "slug": "keycap-135-a112",
+      "model": "A112",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0135-20191201112876297629.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A112 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-136",
+      "slug": "keycap-136-a113",
+      "model": "A113",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0136-20191201112936173617.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A113 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-137",
+      "slug": "keycap-137-a114",
+      "model": "A114",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0137-20191201112912731273.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A114 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-138",
+      "slug": "keycap-138-a116",
+      "model": "A116",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0138-20191201113016371637.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A116 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-139",
+      "slug": "keycap-139-a117",
+      "model": "A117",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0139-20191201113013871387.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A117 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-140",
+      "slug": "keycap-140-a118",
+      "model": "A118",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0140-20191201113129672967.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A118 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-141",
+      "slug": "keycap-141-a119",
+      "model": "A119",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0141-2019120111310967967.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A119 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-142",
+      "slug": "keycap-142-a120",
+      "model": "A120",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0142-20191201113267706770.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A120 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-143",
+      "slug": "keycap-143-a121",
+      "model": "A121",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0143-20191201113218261826.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A121 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-144",
+      "slug": "keycap-144-a125",
+      "model": "A125",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0144-20191201113397499749.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A125 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-145",
+      "slug": "keycap-145-a126",
+      "model": "A126",
+      "categorySlug": "keycaps",
+      "categoryName": "Keycaps",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0145-20191201113360226022.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=4",
+      "summary": "Keycaps model A126 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Keycaps series",
+        "Model selection support"
+      ]
     },
     {
       "id": "legacy-product-353",
-      "slug": "direct-key-switch",
-      "model": "Direct Key Switch",
+      "slug": "direct-key-switch-353-kfc-a04-3",
+      "model": "KFC-A04-3",
       "categorySlug": "direct-key-switches",
       "categoryName": "Direct Key Switches",
-      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0354-20191201135998359835.jpg",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0353-20191201135998359835.jpg",
       "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
-      "summary": "Direct key switch series selected from Zijin Electronics' original product catalog.",
-      "applications": ["Appliance controls", "Electronic control panels"],
-      "features": ["Direct key switch series", "Model selection support"]
+      "summary": "Direct Key Switches model KFC-A04-3 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-354",
+      "slug": "direct-key-switch-354-kfc-a04-05",
+      "model": "KFC-A04-05",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0354-20191201135951215121.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-05 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-355",
+      "slug": "direct-key-switch-355-kfc-a04-05a",
+      "model": "KFC-A04-05A",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0355-20191201140014491449.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-05A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-356",
+      "slug": "direct-key-switch-356-kfc-a04-7",
+      "model": "KFC-A04-7",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0356-20191201140020762076.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-7 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-357",
+      "slug": "direct-key-switch-357-kfc-a04-7a",
+      "model": "KFC-A04-7A",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0357-20191201140176667666.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-7A from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-358",
+      "slug": "direct-key-switch-358-kfc-a04-7b",
+      "model": "KFC-A04-7B",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0358-20191201140119941994.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-7B from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-359",
+      "slug": "direct-key-switch-359-kfc-a04-7h6-4",
+      "model": "KFC-A04-7H6.4",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0359-20191201140280318031.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-7H6.4 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-360",
+      "slug": "direct-key-switch-360-kfc-a04-7h6",
+      "model": "KFC-A04-7H6",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0360-20191201140297329732.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-7H6 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-361",
+      "slug": "direct-key-switch-361-kfc-a04-9",
+      "model": "KFC-A04-9",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0361-2019120114030730730.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-9 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-362",
+      "slug": "direct-key-switch-362-kfc-a04-15t",
+      "model": "KFC-A04-15T",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0362-20191201140332883288.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A04-15T from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-363",
+      "slug": "direct-key-switch-363-kfc-a09-01",
+      "model": "KFC-A09-01",
+      "categorySlug": "direct-key-switches",
+      "categoryName": "Direct Key Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0363-20191201140450155015.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=9",
+      "summary": "Direct Key Switches model KFC-A09-01 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Direct Key Switches series",
+        "Model selection support"
+      ]
     }
   ]
 }

@@ -85,7 +85,7 @@ export async function getProducts(): Promise<Product[]> {
     .eq('is_active', true)
     .order('sort_order', { ascending: true })
 
-  if (error || !data?.length) return fallbackProducts
+  if (error || !data?.length || data.length < fallbackProducts.length) return fallbackProducts
   const approved = data.filter((row) => typeof row.slug === 'string' && isApprovedProductSlug(row.slug))
   return approved.length ? approved.map((row) => rowToProduct(row as Record<string, unknown>)) : fallbackProducts
 }
