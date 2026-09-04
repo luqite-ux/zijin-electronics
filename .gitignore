@@ -9,6 +9,7 @@ dist/
 output-*.png
 .playwright-cli/
 output/playwright/
+.codex-delivery/
 .codex-delivery/v0-source.zip
 .codex-delivery/v0-source-*/
 assets/v0-input/
