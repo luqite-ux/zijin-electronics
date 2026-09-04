@@ -4,8 +4,8 @@ import { faqs } from '@/lib/site-data'
 
 export function FaqPreview() {
   return (
-    <div className="grid gap-8 lg:grid-cols-[.85fr_1.15fr] lg:items-start">
-      <div className="rounded-[1.5rem] border border-line bg-gradient-to-br from-brand-blue to-[#0d8fbd] p-8 text-white shadow-glow">
+    <div data-motion-group className="grid gap-8 lg:grid-cols-[.85fr_1.15fr] lg:items-start">
+      <div className="motion-card rounded-[1.5rem] border border-line bg-gradient-to-br from-brand-blue to-[#0d8fbd] p-8 text-white shadow-glow">
         <p className="text-sm font-bold uppercase text-white/75">Buyer Support</p>
         <h3 className="mt-4 text-3xl font-semibold">Questions before model selection?</h3>
         <p className="mt-4 leading-8 text-white/82">Share model numbers, drawings, application requirements, or samples. All product and contact CTAs lead to the same inquiry workflow.</p>
@@ -14,9 +14,9 @@ export function FaqPreview() {
           <ArrowRight className="h-4 w-4" />
         </Link>
       </div>
-      <div className="grid gap-3">
+      <div data-motion-group className="grid gap-3">
         {faqs.slice(0, 4).map((item) => (
-          <div key={item.question} className="rounded-2xl border border-line bg-white p-5">
+          <div key={item.question} className="motion-card rounded-2xl border border-line bg-white p-5">
             <h4 className="font-semibold text-ink">{item.question}</h4>
             <p className="mt-2 text-sm leading-6 text-muted">{item.answer}</p>
           </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
+import { MotionController } from '@/components/motion-controller'
 import { siteInfo } from '@/lib/site-data'
 import './globals.css'
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>
+        <MotionController />
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />

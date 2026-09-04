@@ -1,28 +1,42 @@
-# Motion plan — Zijin Electronics
+# Zijin Electronics Motion Plan
 
-## Design intent
+Date: 2026-09-04
 
-Precise, restrained industrial motion for appliance-switch buyers. Red/black brand cues and real product geometry lead; no floating orbs or continuous decorative animation.
+## Direction
 
-## Selected scenes
-
-1. `MOT-ZIJIN-01` narrative reveal: Hero eyebrow, title, copy and CTA enter in a 70 ms reading-order stagger, 520–640 ms, 20 px maximum travel.
-2. `MOT-ZIJIN-02` product rail: representative switch assemblies reveal with a horizontal mask and subtle 1.02 image scale; mobile uses fade-only.
-3. `MOT-ZIJIN-03` content cards: every repeated product, capability, FAQ and qualification card receives a one-time staggered viewport reveal with a bounded cumulative delay.
-4. `MOT-ZIJIN-04` interaction: product cards lift 4 px and CTA arrows translate 3 px on hover/focus; touch retains full static readability.
+Motion supports the industrial product hierarchy without turning the site into a demo reel. The selected combination covers narrative entrance, scroll-based content reveal, repeated-card sequencing, and restrained interaction feedback.
 
 ## External candidates
 
-- Motion `inView` / `whileInView`: adopted for efficient one-time reveal and observer cleanup.
-- MDN `prefers-reduced-motion`: adopted as the accessibility contract; all transforms and stagger are disabled under reduction.
+### Motion for React
 
-## Recent-combination check
+- Reference: https://motion.dev/docs/react-scroll-animations
+- Candidate mechanisms: `whileInView`, one-time viewport animation, image mask reveal, reduced-motion hooks.
+- Decision: adopt the behavioral pattern, but not the package. The current site can achieve the required one-time reveals with one shared IntersectionObserver and CSS, avoiding another client dependency.
 
-Different from the recent Keding combination through a product-mask rail and red/black editorial composition. No parallax or counter animation is used.
+### GSAP ScrollTrigger
 
-## Required verification
+- Reference: https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+- Candidate mechanisms: precise scroll positions, timelines, scrub, pinning, and callback control.
+- Decision: rejected for this site. Pinning, scrubbed timelines, and complex scroll choreography do not help the purchasing narrative and would add bundle and maintenance cost.
 
-- Desktop and 390 px screenshots must prove first and last cards appear.
-- Reduced-motion mode must render all content immediately.
-- No initial blank product region, horizontal overflow or delayed first CTA.
+## Adopted scenes
 
+1. **Narrative — Hero entrance:** existing hero label, heading, copy, and actions enter in a restrained 620ms sequence; carousel imagery crossfades without layout movement.
+2. **Content — Section reveal:** every homepage section enters once with 24px vertical movement and opacity over 620ms.
+3. **Interaction — Card collections:** every product-family, application, manufacturing, quality, and FAQ card receives its own entry animation. Reading-order stagger is 90ms with a 270ms cumulative cap. Desktop hover adds at most 6px lift and restrained image scale.
+4. **Industry-specific — Media reveal:** large product and capability media use a subtle inset mask and 1.5% scale correction, emphasizing manufactured form without decorative looping.
+
+## Accessibility and performance
+
+- `prefers-reduced-motion: reduce` disables non-essential opacity, movement, mask, scale, and stagger effects; content remains immediately visible.
+- Mobile movement is reduced to 16px and media masks are shallower.
+- IntersectionObserver triggers each target once, then unobserves it; cleanup disconnects the observer on unmount.
+- No infinite decoration, flashing, floating light balls, pinned scrolling, or scroll hijacking.
+
+## Verification evidence
+
+- Automated contract: `tests/site-rules.test.mjs` verifies the observer, cleanup, reduced-motion rules, and motion coverage across homepage card collections.
+- Desktop browser: local Production build verified 6/6 sections, 24/24 cards, and 4/4 product-family visuals reveal once; no horizontal overflow or console errors.
+- 390px mobile browser: local Production build verified 6/6 sections, 24/24 cards, and 4/4 product-family visuals reveal once; no horizontal overflow or console errors.
+- Reduced-motion browser emulation: first animated card computed to `opacity: 1`, `transform: none`, and `clip-path: none`.

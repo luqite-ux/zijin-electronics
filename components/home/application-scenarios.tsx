@@ -2,11 +2,11 @@ import { solutions } from '@/lib/site-data'
 
 export function ApplicationScenarios() {
   return (
-    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <div data-motion-group className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
       {solutions.map((item) => {
         const Icon = item.icon
         return (
-          <div key={item.title} className="rounded-[1.5rem] border border-line bg-white p-6 shadow-sm">
+          <div key={item.title} className="motion-card rounded-[1.5rem] border border-line bg-white p-6 shadow-sm">
             <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-ice text-brand-blue">
               <Icon className="h-6 w-6" />
             </span>
