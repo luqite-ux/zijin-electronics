@@ -3,7 +3,6 @@ import { ApplicationScenarios } from '@/components/home/application-scenarios'
 import { FaqPreview } from '@/components/home/faq-preview'
 import { FeaturedProducts } from '@/components/home/featured-products'
 import { ManufacturingPreview } from '@/components/home/manufacturing-preview'
-import { ProductSeries } from '@/components/home/product-series'
 import { QualityPreview } from '@/components/home/quality-preview'
 import { InquiryCta } from '@/components/inquiry-cta'
 import { SectionShell } from '@/components/section-shell'
@@ -13,13 +12,10 @@ export default function HomePage() {
     <>
       <Hero />
       <div id="priority-products">
-        <SectionShell eyebrow="Priority Product Families" title="Three priority product families" text="Explore piano chain switches, keycaps, and direct key switches, then send your drawing, sample, or application requirements through the inquiry form.">
-          <ProductSeries />
+        <SectionShell eyebrow="Product Highlights" title="More models. One consistent product showcase." text="Explore representative switch models across our core ranges. Keycaps remain available through the priority category link and complete product catalog.">
+          <FeaturedProducts />
         </SectionShell>
       </div>
-      <SectionShell eyebrow="Featured Products" title="Start with a verified model." text="Browse representative products, then open the complete catalog for project selection.">
-        <FeaturedProducts />
-      </SectionShell>
       <SectionShell eyebrow="Application Scenarios" title="Components for appliance controls, interfaces, and precision assemblies" text="Instead of invented project cases, the homepage presents factual application areas from customer materials and product documentation.">
         <ApplicationScenarios />
       </SectionShell>
