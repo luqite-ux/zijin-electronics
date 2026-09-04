@@ -122,7 +122,7 @@ const { data: existingProducts, error: existingProductsError } = await client.fr
 if (existingProductsError) throw existingProductsError
 const obsoleteProductIds = existingProducts.filter((row) => !approvedSlugs.includes(row.slug)).map((row) => row.id)
 if (obsoleteProductIds.length) {
-  const { error } = await client.from('products').update({ is_active: false }).eq('tenant_id', TENANT_ID).in('id', obsoleteProductIds)
+  const { error } = await client.from('products').delete().eq('tenant_id', TENANT_ID).in('id', obsoleteProductIds)
   if (error) throw error
 }
 
@@ -130,7 +130,7 @@ const { data: existingCategories, error: existingCategoriesError } = await clien
 if (existingCategoriesError) throw existingCategoriesError
 const obsoleteCategoryIds = existingCategories.filter((row) => !approvedCategorySlugs.includes(row.slug)).map((row) => row.id)
 if (obsoleteCategoryIds.length) {
-  const { error } = await client.from('product_categories').update({ is_active: false }).eq('tenant_id', TENANT_ID).in('id', obsoleteCategoryIds)
+  const { error } = await client.from('product_categories').delete().eq('tenant_id', TENANT_ID).in('id', obsoleteCategoryIds)
   if (error) throw error
 }
 
