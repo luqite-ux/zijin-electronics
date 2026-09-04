@@ -1,55 +1,44 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
-import { featuredProducts } from '@/lib/site-data'
-import { productPath } from '@/lib/routes'
+import { ArrowUpRight } from 'lucide-react'
+import { productCategories } from '@/lib/site-data'
+
+const categoryVisuals: Record<string, string> = {
+  'piano-chain-switches': '/images/products/categories/piano-chain-switches-ai.png',
+  'range-hood-switches': '/images/products/categories/range-hood-switches-ai.png',
+  keycaps: '/images/products/categories/keycaps-ai.png',
+  'direct-key-switches': '/images/products/categories/direct-key-switches-ai.png'
+}
 
 export function FeaturedProducts() {
   return (
-    <>
-      <nav aria-label="Priority product categories" className="mb-8 flex flex-wrap gap-3">
-        <Link href="/products?category=piano-chain-switches" className="rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:border-brand-red hover:text-brand-red">Piano Chain Switches (22)</Link>
-        <Link href="/products?category=keycaps" className="rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:border-brand-red hover:text-brand-red">Keycaps (96)</Link>
-        <Link href="/products?category=direct-key-switches" className="rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:border-brand-red hover:text-brand-red">Direct Key Switches (11)</Link>
-      </nav>
-      <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
-        {featuredProducts.map((product, index) => {
-          const displayModel = product.model === 'Piano Chain Switches Model 618' ? 'Model 618' : product.model
-
-          return (
-          <Link
-            key={product.slug}
-            href={productPath(product.slug)}
-            className="stagger-card group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white transition hover:-translate-y-1 hover:shadow-glow"
-          >
-            <div className="relative aspect-[4/3] overflow-hidden bg-[#e7e3dc]">
-              <Image
-                src={product.image}
-                alt={product.model}
-                fill
-                priority={index < 4}
-                sizes="(min-width: 1280px) 22vw, (min-width: 640px) 44vw, 92vw"
-                className="object-contain p-4 mix-blend-multiply transition duration-500 group-hover:scale-105"
-              />
-            </div>
-            <div className="flex flex-1 flex-col p-5">
-              <p className="text-xs font-bold uppercase tracking-[0.12em] text-brand-red">{product.categoryName}</p>
-              <h3 className="mt-2 text-lg font-semibold text-ink">{displayModel}</h3>
-              <p className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-bold text-ink">
-                View details
-                <ArrowRight className="h-4 w-4 text-brand-red transition group-hover:translate-x-1" />
-              </p>
-            </div>
-          </Link>
-          )
-        })}
-      </div>
-      <div className="mt-8 flex justify-center">
-        <Link href="/products?view=all" className="inline-flex items-center gap-2 rounded-full bg-brand-red px-6 py-3 text-sm font-bold text-white transition hover:bg-ink">
-          View All Products
-          <ArrowRight className="h-4 w-4" />
+    <div className="grid gap-5 md:grid-cols-2">
+      {productCategories.map((category) => (
+        <Link
+          key={category.slug}
+          href={`/products/category/${category.slug}`}
+          className="stagger-card group relative aspect-[4/3] overflow-hidden bg-[#171717] text-white shadow-[0_24px_60px_rgba(0,0,0,.14)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-red focus-visible:ring-offset-4"
+        >
+          <Image
+            src={categoryVisuals[category.slug]}
+            alt={`${category.name} product range`}
+            fill
+            priority
+            sizes="(min-width: 768px) 48vw, 94vw"
+            className="object-contain transition duration-700 group-hover:scale-[1.025]"
+          />
+          <span className="absolute inset-0 bg-[linear-gradient(180deg,transparent_38%,rgba(7,7,7,.18)_56%,rgba(7,7,7,.92)_100%)]" />
+          <span className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-5 p-6 sm:p-8">
+            <span>
+              <span className="text-xs font-black uppercase tracking-[0.16em] text-brand-red">{category.count} product models</span>
+              <span className="mt-2 block text-2xl font-black tracking-tight sm:text-3xl">{category.name}</span>
+            </span>
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center border border-white/35 bg-white/10 backdrop-blur-sm transition group-hover:border-brand-red group-hover:bg-brand-red">
+              <ArrowUpRight className="h-5 w-5" />
+            </span>
+          </span>
         </Link>
-      </div>
-    </>
+      ))}
+    </div>
   )
 }

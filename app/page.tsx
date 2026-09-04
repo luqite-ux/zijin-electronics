@@ -12,7 +12,7 @@ export default function HomePage() {
     <>
       <Hero />
       <div id="priority-products">
-        <SectionShell eyebrow="Product Highlights" title="More models. One consistent product showcase." text="Explore representative switch models across our core ranges. Keycaps remain available through the priority category link and complete product catalog.">
+        <SectionShell eyebrow="Product Families" title="Four core ranges. Built around real applications." text="Explore each complete product family through a dedicated, high-clarity visual overview.">
           <FeaturedProducts />
         </SectionShell>
       </div>

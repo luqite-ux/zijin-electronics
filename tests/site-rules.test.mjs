@@ -60,14 +60,14 @@ assert.match(hero, /hero-direct-key-v2\.png/, 'hero should promote direct-key sw
 assert.match(hero, /Previous banner[\s\S]*Next banner/, 'hero should provide accessible manual carousel controls')
 assert.match(hero, /Explore Products/, 'hero should link directly to the product catalog')
 assert.doesNotMatch(hero, /zijin-products-on-stage|hero-sparkle|connector solutions/i, 'hero should not retain the superseded connector composition')
-assert.match(featuredProducts, /src=\{product\.image\}/, 'featured product cards should use the customer-sourced product images')
-assert.match(featuredProducts, /mix-blend-multiply/, 'homepage product photos should share one visually unified neutral stage')
-assert.match(featuredProducts, /xl:grid-cols-4/, 'homepage should show a denser four-column product grid on desktop')
-assert.doesNotMatch(featuredProducts, /product\.summary/, 'homepage product cards should stay compact instead of repeating catalog summaries')
+assert.match(featuredProducts, /\/images\/products\/categories\//, 'homepage category cards should use the AI-enhanced customer product compositions')
+assert.match(featuredProducts, /md:grid-cols-2/, 'homepage should present four large category visuals in a two-column layout')
+assert.match(featuredProducts, /productCategories\.map/, 'homepage should render one visual entry for each product category')
+assert.match(featuredProducts, /\/products\/category\/\$\{category\.slug\}/, 'each homepage category visual should link directly to its category')
 assert.doesNotMatch(homePage, /<ProductSeries|import \{ ProductSeries \}/, 'homepage should not repeat the same products in a separate family-card section')
-assert.match(featuredProducts, /Keycaps \(96\)/, 'homepage should retain a prominent keycap category link without using its blue drawing as a product card')
-assert.match(featuredProducts, /priority=\{index < 4\}/, 'only the first visible product row should preload on the homepage')
-assert.match(featuredProducts, /Piano Chain Switches Model 618[\s\S]*Model 618/, 'the homepage should use the concise Model 618 display name')
+for (const asset of ['piano-chain-switches-ai.png', 'range-hood-switches-ai.png', 'keycaps-ai.png', 'direct-key-switches-ai.png']) {
+  assert.ok(fs.existsSync(path.join(root, 'public/images/products/categories', asset)), `${asset} should exist as an AI-enhanced category visual`)
+}
 assert.match(productSeries, /piano-chain-switches[\s\S]*keycaps[\s\S]*direct-key-switches/, 'the product-series area should preserve the required priority order')
 for (const asset of ['piano-chain-switch.jpg', 'keycaps.jpg', 'direct-key-switch.jpg']) {
   assert.ok(fs.existsSync(path.join(root, 'public/images/products/priority', asset)), `${asset} should exist as a customer-sourced product asset`)
