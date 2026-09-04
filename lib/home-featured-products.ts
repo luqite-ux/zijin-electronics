@@ -1,7 +1,7 @@
-const homeFeaturedProductSlugs = [
-  'piano-chain-switch',
+const priorityCategories = [
+  'piano-chain-switches',
   'keycaps',
-  'direct-key-switch'
+  'direct-key-switches'
 ] as const
 
 export function isApprovedProductSlug(_slug: string): boolean {
@@ -9,8 +9,8 @@ export function isApprovedProductSlug(_slug: string): boolean {
 }
 
 export function selectHomeFeaturedProducts<T extends { slug: string }>(products: readonly T[]): T[] {
-  return homeFeaturedProductSlugs.flatMap((slug) => {
-    const product = products.find((item) => item.slug === slug)
+  return priorityCategories.flatMap((categorySlug) => {
+    const product = products.find((item) => item.slug.includes(categorySlug.replace(/s$/, '')) || item.slug.startsWith(categorySlug === 'keycaps' ? 'keycap-' : categorySlug.replace(/s$/, '')))
     return product ? [product] : []
   })
 }
