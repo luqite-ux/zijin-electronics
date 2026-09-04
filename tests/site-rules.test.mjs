@@ -63,7 +63,10 @@ assert.match(productSeries, /piano-chain-switches[\s\S]*keycaps[\s\S]*direct-key
 for (const asset of ['piano-chain-switch.jpg', 'keycaps.jpg', 'direct-key-switch.jpg']) {
   assert.ok(fs.existsSync(path.join(root, 'public/images/products/priority', asset)), `${asset} should exist as a customer-sourced product asset`)
 }
-assert.match(productsPage, /getProducts/, 'the products index should load the approved products for its single-category feature panel')
+assert.match(productsPage, /getProducts/, 'the products index should load the approved products')
+assert.match(productsPage, /ProductCard/, 'the products index should render real product cards immediately below the category filters')
+assert.match(productsPage, /products\.map\(\(product\)/, 'the products index should render the complete product collection')
+assert.doesNotMatch(productsPage, /singleCategory|productCategories\.map\(\(category\)\s*=>\s*\{[\s\S]*View \{category\.count\} models/, 'the products index should not repeat category-only cards below the filters')
 assert.match(productsPage, /Switches, Keycaps, and Direct Key Switches/, 'the products index should continue the homepage priority-product message')
 assert.match(layout, /icon\.png\?v=zijin-20260904/, 'favicon should use the current ZHIJIN brand icon')
 assert.match(layout, /Precision Appliance Switches & Keycaps/, 'browser metadata should match the redesigned product focus')
