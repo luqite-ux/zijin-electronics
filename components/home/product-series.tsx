@@ -19,7 +19,7 @@ export function ProductSeries() {
         return (
           <Link key={item.slug} href={`/products/category/${item.slug}`} className={`stagger-card group grid overflow-hidden border border-line bg-[#ece9e2] transition hover:-translate-y-1 hover:shadow-glow ${index === 0 ? 'md:col-span-7 md:row-span-2 md:grid-cols-[1.15fr_.85fr]' : 'md:col-span-5 md:grid-cols-[.85fr_1.15fr]'}`}>
             <div className={`relative min-h-64 overflow-hidden bg-[#e7e3dc] ${index === 0 ? 'md:min-h-[34rem]' : 'md:min-h-64'}`}>
-              {product ? <Image src={product.image} alt={product.model} fill sizes="(min-width: 768px) 55vw, 92vw" className="object-contain p-5 transition duration-500 group-hover:scale-[1.03]" /> : null}
+              {product ? <Image src={product.image} alt={product.model} fill priority sizes="(min-width: 768px) 55vw, 92vw" className="object-contain p-5 transition duration-500 group-hover:scale-[1.03]" /> : null}
             </div>
             <div className="flex flex-col justify-end bg-white p-6 lg:p-8">
               <span className="flex h-10 w-10 items-center justify-center bg-brand-red text-white"><Icon className="h-5 w-5" /></span>

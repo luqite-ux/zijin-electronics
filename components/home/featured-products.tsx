@@ -18,6 +18,7 @@ export function FeaturedProducts() {
               src={product.image}
               alt={product.model}
               fill
+              priority
               sizes="(min-width: 1280px) 29vw, (min-width: 768px) 44vw, 92vw"
               className="object-contain p-3 transition duration-500 group-hover:scale-105"
             />
