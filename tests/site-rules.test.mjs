@@ -65,7 +65,11 @@ for (const asset of ['piano-chain-switch.jpg', 'keycaps.jpg', 'direct-key-switch
 }
 assert.match(productsPage, /getProducts/, 'the products index should load the approved products')
 assert.match(productsPage, /ProductCard/, 'the products index should render real product cards immediately below the category filters')
-assert.match(productsPage, /products\.map\(\(product\)/, 'the products index should render the complete product collection')
+assert.match(productsPage, /searchParams/, 'the products index should support category and all-product filter state')
+assert.match(productsPage, /selectedCategorySlug\s*=\s*requestedCategory[\s\S]*productCategories\[0\]\?\.slug/, 'the products index should default to the first product category')
+assert.match(productsPage, /category\.slug === selectedCategorySlug/, 'the products index should filter products to the selected category')
+assert.match(productsPage, /href="\/products\?view=all"/, 'the products index should provide a View All control after the categories')
+assert.match(productsPage, /View All \(\{products\.length\}\)/, 'the View All control should make the full catalog count clear')
 assert.doesNotMatch(productsPage, /singleCategory|productCategories\.map\(\(category\)\s*=>\s*\{[\s\S]*View \{category\.count\} models/, 'the products index should not repeat category-only cards below the filters')
 assert.match(productsPage, /Switches, Keycaps, and Direct Key Switches/, 'the products index should continue the homepage priority-product message')
 assert.match(layout, /icon\.png\?v=zijin-20260904/, 'favicon should use the current ZHIJIN brand icon')
