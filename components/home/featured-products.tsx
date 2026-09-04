@@ -6,14 +6,14 @@ import { productPath } from '@/lib/routes'
 
 export function FeaturedProducts() {
   return (
-    <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gap-px overflow-hidden border border-line bg-line md:grid-cols-2 xl:grid-cols-3">
       {featuredProducts.map((product) => (
         <Link
           key={product.slug}
           href={productPath(product.slug)}
-          className="group rounded-[1.5rem] border border-line bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-glow"
+          className="stagger-card group bg-white p-5 transition hover:bg-[#f1eee8]"
         >
-          <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-[#e8f5ff] via-[#f4faff] to-[#e8f7f2]">
+          <div className="relative aspect-[4/3] overflow-hidden bg-[#eeebe5]">
             <Image
               src={product.image}
               alt={product.model}

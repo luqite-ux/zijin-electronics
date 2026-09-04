@@ -48,12 +48,15 @@ assert.match(siteData, /label:\s*['"]Home['"]/, 'nav data must include visible H
 assert.match(productData, /"products"/, 'scraped product data should be present')
 assert.match(routes, /inquiryPath\s*=\s*['"]\/contact#inquiry['"]/, 'inquiry route should be centralized')
 assert.match(header, /navItems\.map/, 'header must render navigation data')
-assert.match(header, /width=\{238\}/, 'header must render the confirmed Zijin Technology logo')
-assert.match(header, /height=\{230\}/, 'header logo height should match the confirmed source aspect ratio')
+assert.match(header, /width=\{195\}/, 'header must render the confirmed horizontal ZHIJIN logo')
+assert.match(header, /height=\{99\}/, 'header logo height should match the confirmed source aspect ratio')
+assert.match(header, /aria-expanded=\{open\}/, 'mobile navigation must expose its expanded state')
 assert.doesNotMatch(hero, /stats\.slice|Featured series:|Technical product range/, 'hero should not reintroduce the dashboard-like product grid')
-assert.match(hero, /Switch &amp; Keycap Solutions/, 'hero should lead with the priority switch and keycap message')
-assert.match(hero, /featuredProducts\.map/, 'hero should present all three priority product images')
-assert.match(hero, /View Priority Products/, 'hero should link directly to the priority product section')
+assert.match(hero, /hero-priority-products-v2\.png/, 'hero should use the composed priority-product banner')
+assert.match(hero, /hero-range-hood-v2\.png/, 'hero should promote the high-volume range-hood switch family')
+assert.match(hero, /hero-direct-key-v2\.png/, 'hero should promote direct-key switches')
+assert.match(hero, /Previous banner[\s\S]*Next banner/, 'hero should provide accessible manual carousel controls')
+assert.match(hero, /Explore Products/, 'hero should link directly to the product catalog')
 assert.doesNotMatch(hero, /zijin-products-on-stage|hero-sparkle|connector solutions/i, 'hero should not retain the superseded connector composition')
 assert.match(featuredProducts, /src=\{product\.image\}/, 'featured product cards should use the customer-sourced product images')
 assert.match(productSeries, /piano-chain-switches[\s\S]*keycaps[\s\S]*direct-key-switches/, 'the product-series area should preserve the required priority order')
@@ -62,8 +65,8 @@ for (const asset of ['piano-chain-switch.jpg', 'keycaps.jpg', 'direct-key-switch
 }
 assert.match(productsPage, /getProducts/, 'the products index should load the approved products for its single-category feature panel')
 assert.match(productsPage, /Switches, Keycaps, and Direct Key Switches/, 'the products index should continue the homepage priority-product message')
-assert.match(layout, /favicon\.ico\?v=zijin-technology-20260815/, 'favicon should use a cache-busted ico file for browser tabs')
-assert.match(layout, /Piano Chain Switches, Keycaps & Direct Key Switches/, 'browser metadata should match the current homepage priority products')
+assert.match(layout, /icon\.png\?v=zijin-20260904/, 'favicon should use the current ZHIJIN brand icon')
+assert.match(layout, /Precision Appliance Switches & Keycaps/, 'browser metadata should match the redesigned product focus')
 assert.doesNotMatch(layout, /0\.5mm, 1\.0mm|FPC \/ FFC|wafer connectors/i, 'browser metadata should not retain the superseded connector focus')
 assert.match(layout, /metadataBase/, 'metadata should declare the formal canonical host')
 assert.match(layout, /alternates:\s*\{\s*canonical:/, 'homepage should emit a canonical URL')
@@ -76,7 +79,7 @@ for (const [name, page] of Object.entries({ aboutPage, manufacturingPage, qualit
   assert.match(page, /export const metadata: Metadata/, `${name} should publish route-specific metadata`)
 }
 assert.match(robots, /disallow:\s*\[['"]\/admin['"],\s*['"]\/api['"]\]/, 'robots should prevent admin and API indexing')
-for (const source of [hero, featuredProducts, productSeries, productsPage]) {
+for (const source of [featuredProducts, productSeries, productsPage]) {
   assert.doesNotMatch(source, /object-cover/, 'priority product images should preserve the complete product with contain sizing')
 }
 

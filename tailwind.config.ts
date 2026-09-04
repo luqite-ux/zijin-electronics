@@ -9,19 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: '#172033',
-        muted: '#617084',
-        line: '#DDE8F3',
+        ink: '#161616',
+        muted: '#66645F',
+        line: '#DEDCD6',
         brand: {
-          blue: '#0867B6',
-          green: '#00A389',
-          red: '#E14B3B',
-          ice: '#EAF6FF',
-          silver: '#EEF2F6'
+          blue: '#D71920',
+          green: '#99151A',
+          red: '#D71920',
+          ice: '#F3F1EC',
+          silver: '#E8E6E1'
         }
       },
       boxShadow: {
-        glow: '0 24px 80px rgba(0, 91, 172, 0.16)'
+        glow: '0 24px 70px rgba(30, 20, 18, 0.16)'
       }
     }
   },

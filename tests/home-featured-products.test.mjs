@@ -12,17 +12,17 @@ const featured = selectHomeFeaturedProducts(catalog.products)
 assert.deepEqual(
   featured.map((product) => product.model),
   [
-    'Piano Chain Switch',
-    'Keycaps',
-    'Direct Key Switch'
+    'Piano Chain Switches Model 618',
+    'A01',
+    'KFC-A04-3'
   ],
   'homepage should feature the three customer-prioritized switch and keycap series in order'
 )
 assert.equal(featured.length, 3, 'homepage should show exactly three prioritized product series')
 assert.equal(new Set(featured.map((product) => product.image)).size, 3, 'each prioritized series should use its own customer product image')
-assert.equal(isApprovedProductSlug('piano-chain-switch'), true, 'piano chain switch should be public')
-assert.equal(isApprovedProductSlug('keycaps'), true, 'keycaps should be public')
-assert.equal(isApprovedProductSlug('direct-key-switch'), true, 'direct key switch should be public')
-assert.equal(isApprovedProductSlug('product-618'), false, 'legacy product slugs should remain private even if a database row is reactivated')
+assert.equal(isApprovedProductSlug(featured[0].slug), true, 'piano chain switch model should be public')
+assert.equal(isApprovedProductSlug(featured[1].slug), true, 'keycap model should be public')
+assert.equal(isApprovedProductSlug(featured[2].slug), true, 'direct key switch model should be public')
+assert.equal(isApprovedProductSlug(''), false, 'empty slugs should remain private')
 
 console.log('homepage featured switch and keycap selection passed')

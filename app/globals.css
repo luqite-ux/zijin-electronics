@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  color: #172033;
-  background: #f7fbff;
+  color: #161616;
+  background: #f7f5f0;
 }
 
 * {
@@ -17,11 +17,8 @@ html {
 
 body {
   margin: 0;
-  color: #172033;
-  background:
-    radial-gradient(circle at 12% 8%, rgba(0, 91, 172, 0.12), transparent 26rem),
-    radial-gradient(circle at 84% 4%, rgba(230, 0, 18, 0.08), transparent 24rem),
-    linear-gradient(135deg, #ffffff 0%, #edf7ff 48%, #f8fbff 100%);
+  color: #161616;
+  background: #f7f5f0;
 }
 
 a {
@@ -31,8 +28,8 @@ a {
 
 .circuit-bg {
   background-image:
-    linear-gradient(rgba(0, 91, 172, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 91, 172, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(215, 25, 32, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215, 25, 32, 0.07) 1px, transparent 1px);
   background-size: 46px 46px;
 }
 
@@ -52,43 +49,17 @@ a {
   animation: float-slow 7s ease-in-out infinite;
 }
 
-.hero-sparkle {
-  position: absolute;
-  width: 0.55rem;
-  height: 0.55rem;
-  border-radius: 999px;
-  background: white;
-  box-shadow: 0 0 0.45rem rgba(255, 255, 255, 0.95), 0 0 1.2rem rgba(101, 190, 255, 0.9);
-  opacity: 0;
-  animation: hero-sparkle 3.8s ease-in-out infinite;
+.hero-panel {
+  animation: hero-enter 620ms cubic-bezier(.2,.75,.2,1) both;
 }
 
-.hero-sparkle::before,
-.hero-sparkle::after {
-  content: '';
-  position: absolute;
-  inset: 50% auto auto 50%;
-  border-radius: 999px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.95), transparent);
-  transform: translate(-50%, -50%);
+.stagger-card {
+  animation: card-enter 620ms cubic-bezier(.2,.75,.2,1) both;
 }
 
-.hero-sparkle::before {
-  width: 2.2rem;
-  height: 1px;
-}
-
-.hero-sparkle::after {
-  width: 1px;
-  height: 2.2rem;
-  background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.95), transparent);
-}
-
-.hero-sparkle-1 { left: 64%; top: 17%; animation-delay: -0.4s; }
-.hero-sparkle-2 { left: 76%; top: 28%; animation-delay: -2.1s; transform: scale(0.72); }
-.hero-sparkle-3 { left: 88%; top: 14%; animation-delay: -1.3s; transform: scale(0.52); }
-.hero-sparkle-4 { left: 58%; top: 38%; animation-delay: -3.1s; transform: scale(0.45); }
-.hero-sparkle-5 { left: 82%; top: 43%; animation-delay: -2.6s; transform: scale(0.6); }
+.stagger-card:nth-child(2) { animation-delay: 80ms; }
+.stagger-card:nth-child(3) { animation-delay: 160ms; }
+.stagger-card:nth-child(4) { animation-delay: 240ms; }
 
 @keyframes flow {
   0%, 100% {
@@ -108,24 +79,9 @@ a {
   }
 }
 
-@keyframes hero-sparkle {
-  0%, 100% { opacity: 0; }
-  38% { opacity: 0; }
-  48% { opacity: 0.95; }
-  58% { opacity: 0; }
-}
-
-@media (max-width: 639px) {
-  .hero-sparkle-1 { left: 72%; top: 14%; }
-  .hero-sparkle-2 { left: 87%; top: 25%; }
-  .hero-sparkle-3 { left: 61%; top: 34%; }
-  .hero-sparkle-4 { left: 83%; top: 43%; }
-  .hero-sparkle-5 { left: 67%; top: 52%; }
-}
+@keyframes hero-enter { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes card-enter { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-sparkle {
-    animation: none;
-    opacity: 0.45;
-  }
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-delay: 0ms !important; }
 }

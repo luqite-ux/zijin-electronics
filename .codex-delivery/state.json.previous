@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task_id": "40746280-086c-4ebc-bd9e-a3d292d754f1",
+  "site_id": "8189fd37-7c14-439a-89c5-c67951b9f6b4",
+  "customer": "乐清市紫金电子有限公司",
+  "stage": "content_coverage_reconciled",
+  "status": "running",
+  "attempts": {},
+  "v0_calls": [
+    {
+      "chat": "qlqlHcPQI39",
+      "purpose": "first full-site visual redesign",
+      "scope": "homepage visual system, Banner carousel, representative product and inner-page templates",
+      "cost_usd": 0,
+      "recorded_at": "2026-09-04T03:02:47.113Z"
+    }
+  ],
+  "completed_gates": [],
+  "blockers": [],
+  "artifacts": {
+    "source_integrity": "deliverables/source-integrity.md",
+    "motion_plan": "deliverables/motion-plan.md",
+    "product_coverage_intake": ".codex-delivery/product-coverage-intake.json",
+    "route_inventory": "deliverables/route-inventory.md",
+    "build_evidence": "deliverables/build-evidence.md",
+    "browser_entrypoints": "deliverables/browser-entrypoints.md",
+    "template_visual_result": "PASS",
+    "template_visual_evidence": "output/playwright/home-desktop.png; output/playwright/home-mobile.png; output/playwright/products-mobile.png",
+    "product_coverage_result": "PASS",
+    "product_coverage_evidence": ".codex-delivery/product-coverage-terminal.json"
+  },
+  "next_action": "capture-full-content-evidence",
+  "updated_at": "2026-09-04T03:19:20.416Z"
+}

@@ -6,15 +6,12 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.zijinglobal.com'),
-  title: 'Zijin Electronics | Piano Chain Switches, Keycaps & Direct Key Switches',
-  description: 'Explore piano chain switches, keycaps, and direct key switches from Yueqing Zijin Electronics for B2B project inquiries.',
+  title: 'Zijin Electronics | Precision Appliance Switches & Keycaps',
+  description: 'Explore piano-chain, range-hood and direct-key switches, keycaps and connectors from Zijin Electronics for B2B project inquiries.',
   alternates: { canonical: '/' },
   icons: {
-    icon: [
-      { url: '/favicon.ico?v=zijin-technology-20260815', sizes: 'any' },
-      { url: '/icon.png?v=zijin-technology-20260815', type: 'image/png' },
-    ],
-    shortcut: '/favicon.ico?v=zijin-technology-20260815'
+    icon: [{ url: '/icon.png?v=zijin-20260904', type: 'image/png' }],
+    apple: '/apple-icon.png?v=zijin-20260904'
   }
 }
 

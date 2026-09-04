@@ -5,7 +5,7 @@ import { productPath } from '@/lib/routes'
 const baseUrl = 'https://www.zijinglobal.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ['', '/about', '/products', '/manufacturing', '/quality', '/faq', '/contact']
+  const staticRoutes = ['', '/about', '/products', '/manufacturing', '/quality', '/faq', '/news', '/contact']
   return [
     ...staticRoutes.map((route) => ({ url: `${baseUrl}${route}`, lastModified: new Date() })),
     ...productCategories.map((category) => ({ url: `${baseUrl}/products/category/${category.slug}`, lastModified: new Date() })),

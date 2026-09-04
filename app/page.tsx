@@ -17,7 +17,7 @@ export default function HomePage() {
           <ProductSeries />
         </SectionShell>
       </div>
-      <SectionShell eyebrow="Featured Products" title="Switches and keycaps selected for your project" text="Start with the three priority product families. Every product detail page leads to technical inquiry.">
+      <SectionShell eyebrow="Featured Products" title="Start with a verified model." text="Browse representative products, then open the complete catalog for project selection.">
         <FeaturedProducts />
       </SectionShell>
       <SectionShell eyebrow="Application Scenarios" title="Components for appliance controls, interfaces, and precision assemblies" text="Instead of invented project cases, the homepage presents factual application areas from customer materials and product documentation.">
@@ -33,7 +33,7 @@ export default function HomePage() {
         <FaqPreview />
       </SectionShell>
       <section className="px-5 pb-20 sm:px-8">
-        <div className="mx-auto max-w-7xl rounded-[2rem] bg-gradient-to-r from-brand-blue via-[#1d83d4] to-brand-green p-10 text-white shadow-glow">
+        <div className="mx-auto max-w-7xl border-l-4 border-brand-red bg-[#161616] p-10 text-white shadow-glow sm:p-14">
           <h2 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">Tell us the model number, application, quantity, and custom requirements.</h2>
           <p className="mt-4 max-w-2xl text-white/85">Zijin Electronics will review your product model, drawing, sample, quantity, and application requirements.</p>
           <InquiryCta label="Start an Inquiry" variant="light" className="mt-8" />

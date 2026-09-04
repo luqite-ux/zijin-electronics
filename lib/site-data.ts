@@ -37,6 +37,11 @@ const categoryMeta: Record<string, { eyebrow: string; summary: string; icon: Luc
     summary: 'Piano chain switch series from the customer’s original product catalog.',
     icon: Zap
   },
+  'range-hood-switches': {
+    eyebrow: 'High-volume product family',
+    summary: 'KDC range-hood switch models from the customer’s original product catalog.',
+    icon: Zap
+  },
   keycaps: {
     eyebrow: 'Priority product family',
     summary: 'Keycap series from the customer’s original product catalog.',
@@ -59,11 +64,11 @@ export const siteInfo = {
   brand: 'Zijin Electronics',
   company: 'Yueqing Zijin Electronics Co., Ltd.',
   adminDisplayName: '乐清市紫金电子有限公司',
-  tagline: 'Piano Chain Switches, Keycaps & Direct Key Switches',
+  tagline: 'Piano Chain, Range-Hood & Direct-Key Switches · Keycaps',
   description:
-    'Yueqing Zijin Electronics presents piano chain switches, keycaps, and direct key switches for appliance and electronic control projects.',
+    'Zijin Electronics supplies piano-chain, range-hood and direct-key switches, keycaps and connectors for appliance and electronic control projects.',
   phone: '+86 138 1976 1299',
-  email: 'info@zijinglobal.com',
+  email: '734925868@qq.com',
   address: 'No.175 Fanxing Road, Shifan Street, Yueqing, Zhejiang, China',
   logo: '/images/logo.png',
   logoMark: '/images/logo.png',
@@ -78,6 +83,7 @@ export const navItems = [
   { label: 'Products', href: '/products' },
   { label: 'Manufacturing', href: '/manufacturing' },
   { label: 'Quality & Certifications', href: '/quality' },
+  { label: 'News', href: '/news' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' }
 ]
@@ -87,7 +93,7 @@ export const stats = [
   { value: '2,200 m2', label: 'Factory Area' },
   { value: '12', label: 'Workshops' },
   { value: '4', label: 'Production Lines' },
-  { value: '3', label: 'Priority Product Families' },
+  { value: '4', label: 'Verified Product Families' },
   { value: '15 days', label: 'Regular Lead Time' }
 ]
 
@@ -132,7 +138,7 @@ export const solutions = [
 
 export const manufacturingFacts = [
   '2,200 m2 production site with 12 workshops and 4 production lines',
-  'Current public catalog includes piano chain switches, keycaps, and direct key switches',
+  'Current public catalog includes piano-chain, range-hood and direct-key switches plus keycaps',
   'Regular order lead time is about 15 days after confirmed requirements'
 ]
 
@@ -148,7 +154,7 @@ export const workflow = [
 export const faqs = [
   {
     question: 'What product models are available?',
-    answer: 'The current website highlights piano chain switches, keycaps, and direct key switches. Buyers can send the model, application, drawing, or sample requirement for review.'
+    answer: 'The current website lists piano chain switches, range-hood switches, keycaps, and direct key switches. Buyers can send the model, application, drawing, or sample requirement for review.'
   },
   {
     question: 'Do you support customized size, material, color, or process?',

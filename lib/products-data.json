@@ -8,6 +8,13 @@
       "count": 22
     },
     {
+      "id": "legacy-category-2",
+      "slug": "range-hood-switches",
+      "name": "Range Hood Switches",
+      "sourceName": "客户原站产品中心：油烟机开关",
+      "count": 27
+    },
+    {
       "id": "legacy-category-4",
       "slug": "keycaps",
       "name": "Keycaps",
@@ -416,6 +423,492 @@
       ],
       "features": [
         "Piano Chain Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-1",
+      "slug": "range-hood-switch-1-kdc-a08",
+      "model": "KDC-A08",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0001-20191201094654685468.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-2",
+      "slug": "range-hood-switch-2-kdc-a08-5",
+      "model": "KDC-A08-5",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0002-20191201094761996199.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-3",
+      "slug": "range-hood-switch-3-kdc-a08-5-4p-3pcb",
+      "model": "KDC-A08-5-4P-3PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0003-20191201094851005100.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-4P-3PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-4",
+      "slug": "range-hood-switch-4-kdc-a08-5-5p",
+      "model": "KDC-A08-5-5P",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0004-2019120109490494494.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-5",
+      "slug": "range-hood-switch-5-kdc-a08-5-5p-2",
+      "model": "KDC-A08-5-5P-2",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0005-20191201095255175517.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-2 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-6",
+      "slug": "range-hood-switch-6-kdc-a08-5-5p-3",
+      "model": "KDC-A08-5-5P-3",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0006-20191201095379377937.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-3 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-7",
+      "slug": "range-hood-switch-7-kdc-a08-5-5p-5",
+      "model": "KDC-A08-5-5P-5",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0007-20191201095325382538.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-5 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-8",
+      "slug": "range-hood-switch-8-kdc-a08-5-5p-8",
+      "model": "KDC-A08-5-5P-8",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0008-20191201095481588158.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-8 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-9",
+      "slug": "range-hood-switch-9-kdc-a08-5-5p-9",
+      "model": "KDC-A08-5-5P-9",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0009-20191201095532833283.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-9 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-10",
+      "slug": "range-hood-switch-10-kdc-a08-5-5p-14",
+      "model": "KDC-A08-5-5P-14",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0010-20191201095537453745.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-11",
+      "slug": "range-hood-switch-11-kdc-a08-5-5p-14pcb",
+      "model": "KDC-A08-5-5P-14PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0011-20191201095624822482.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-14PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-12",
+      "slug": "range-hood-switch-12-kdc-a08-5-5p-19",
+      "model": "KDC-A08-5-5P-19",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0012-20191201095862896289.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-19 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-13",
+      "slug": "range-hood-switch-13-kdc-a08-5-5p-19pcb",
+      "model": "KDC-A08-5-5P-19PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0013-20191201095878867886.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-19PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-14",
+      "slug": "range-hood-switch-14-kdc-a08-5-5p-21pcb",
+      "model": "KDC-A08-5-5P-21PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0014-20191201095934843484.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-5P-21PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-15",
+      "slug": "range-hood-switch-15-kdc-a08-5-6p-2",
+      "model": "KDC-A08-5-6P-2",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0015-20191201100095399539.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-6P-2 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-16",
+      "slug": "range-hood-switch-16-kdc-a08-5-6p-3",
+      "model": "KDC-A08-5-6P-3",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0016-20191201100016211621.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-6P-3 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-17",
+      "slug": "range-hood-switch-17-kdc-a08-5-7p-1",
+      "model": "KDC-A08-5-7P-1",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0017-20191201100185238523.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-7P-1 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-18",
+      "slug": "range-hood-switch-18-kdc-a08-5-d2p",
+      "model": "KDC-A08-5-D2P",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0018-20191201100153075307.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-D2P from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-19",
+      "slug": "range-hood-switch-19-kdc-a08-5-d2p-xbw",
+      "model": "KDC-A08-5-D2P-XBW",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0019-20191201100284158415.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5-D2P-XBW from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-20",
+      "slug": "range-hood-switch-20-kdc-a08-5m",
+      "model": "KDC-A08-5M",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0020-20191201100275037503.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-5M from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-21",
+      "slug": "range-hood-switch-21-kdc-a08-14",
+      "model": "KDC-A08-14",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0021-20191201100399199919.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-14 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-22",
+      "slug": "range-hood-switch-22-kdc-a08-18",
+      "model": "KDC-A08-18",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0022-20191201100455335533.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-18 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-23",
+      "slug": "range-hood-switch-23-kdc-a08-18m",
+      "model": "KDC-A08-18M",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0023-20191201100497639763.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-18M from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-24",
+      "slug": "range-hood-switch-24-kdc-a08-21",
+      "model": "KDC-A08-21",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0024-20191201100427072707.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-21 from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-25",
+      "slug": "range-hood-switch-25-kdc-a08-21-4p-2pcb",
+      "model": "KDC-A08-21-4P-2PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0025-20191201100542814281.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-21-4P-2PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-26",
+      "slug": "range-hood-switch-26-kdc-a08-21-4p-3pcb",
+      "model": "KDC-A08-21-4P-3PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0026-20191201100662846284.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-21-4P-3PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
+        "Model selection support"
+      ]
+    },
+    {
+      "id": "legacy-product-27",
+      "slug": "range-hood-switch-27-kdc-a08-21-4p-4pcb",
+      "model": "KDC-A08-21-4P-4PCB",
+      "categorySlug": "range-hood-switches",
+      "categoryName": "Range Hood Switches",
+      "image": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/products/zijin-electronics/catalog/0027-20191201100698959895.jpg",
+      "sourceUrl": "http://www.zijindz.com/wap/Products.asp?BigClassID=2",
+      "summary": "Range Hood Switches model KDC-A08-21-4P-4PCB from Zijin Electronics' original product catalog.",
+      "applications": [
+        "Appliance controls",
+        "Electronic control panels"
+      ],
+      "features": [
+        "Range Hood Switches series",
         "Model selection support"
       ]
     },

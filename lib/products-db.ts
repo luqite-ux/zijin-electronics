@@ -2,7 +2,7 @@ import { getSupabaseClient, getTenantId } from '@/lib/supabase'
 import { productCategories as fallbackCategories, products as fallbackProducts, type Product, type ProductCategory } from '@/lib/site-data'
 import { isApprovedProductSlug } from '@/lib/home-featured-products'
 
-const approvedCategorySlugs = new Set(['piano-chain-switches', 'keycaps', 'direct-key-switches'])
+const approvedCategorySlugs = new Set(['piano-chain-switches', 'range-hood-switches', 'keycaps', 'direct-key-switches'])
 
 function pickI18n(value: unknown, preferred = 'en') {
   if (!value || typeof value !== 'object' || Array.isArray(value)) return ''
