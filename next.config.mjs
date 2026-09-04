@@ -6,6 +6,16 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'zijinglobal.com' }],
+        destination: 'https://www.zijinglobal.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
   async rewrites() {
     if (!adminUrl) return []
     return {
