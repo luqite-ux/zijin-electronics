@@ -25,19 +25,25 @@ export function InquiryForm() {
       className="rounded-[2rem] border border-line bg-white p-6 shadow-glow"
       onSubmit={async (event) => {
         event.preventDefault()
+        const form = event.currentTarget
         setStatus('submitting')
         setMessage('')
-        const response = await fetch('/api/inquiries', { method: 'POST', body: new FormData(event.currentTarget) })
-        const result = await response.json().catch(() => ({}))
-        setCaptchaRefreshKey((key) => key + 1)
-        if (!response.ok) {
+        try {
+          const response = await fetch('/api/inquiries', { method: 'POST', body: new FormData(form) })
+          const result = await response.json().catch(() => ({}))
+          setCaptchaRefreshKey((key) => key + 1)
+          if (!response.ok) {
+            setStatus('error')
+            setMessage(result.error || 'Submission failed. Please try again.')
+            return
+          }
+          form.reset()
+          setStatus('success')
+          setMessage('Thank you. Your inquiry has been submitted successfully.')
+        } catch {
           setStatus('error')
-          setMessage(result.error || 'Submission failed. Please try again.')
-          return
+          setMessage('Submission failed. Please check your connection and try again.')
         }
-        event.currentTarget.reset()
-        setStatus('success')
-        setMessage('Thank you. Your inquiry has been submitted successfully.')
       }}
     >
       <div className="grid gap-4 sm:grid-cols-2">
