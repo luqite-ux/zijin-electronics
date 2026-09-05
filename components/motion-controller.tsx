@@ -9,16 +9,13 @@ export function MotionController() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
     if (reducedMotion.matches) return
 
-    const root = document.documentElement
-    const targets = Array.from(document.querySelectorAll<HTMLElement>(motionSelector))
-
-    document.querySelectorAll<HTMLElement>('[data-motion-group]').forEach((group) => {
-      group.querySelectorAll<HTMLElement>('.motion-card').forEach((card, index) => {
-        card.style.setProperty('--motion-delay', `${Math.min(index, 3) * 90}ms`)
+    const setGroupDelays = (scope: ParentNode) => {
+      scope.querySelectorAll<HTMLElement>('[data-motion-group]').forEach((group) => {
+        group.querySelectorAll<HTMLElement>('.motion-card').forEach((card, index) => {
+          card.style.setProperty('--motion-delay', `${Math.min(index, 3) * 90}ms`)
+        })
       })
-    })
-
-    root.classList.add('motion-ready')
+    }
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -28,11 +25,37 @@ export function MotionController() {
       })
     }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' })
 
-    targets.forEach((target) => observer.observe(target))
+    const register = (scope: ParentNode) => {
+      setGroupDelays(scope)
+      const targets = scope instanceof Element && scope.matches(motionSelector)
+        ? [scope, ...scope.querySelectorAll<HTMLElement>(motionSelector)]
+        : Array.from(scope.querySelectorAll<HTMLElement>(motionSelector))
+
+      targets.forEach((target) => {
+        if (target.classList.contains('is-visible') || target.classList.contains('motion-pending')) return
+        target.classList.add('motion-pending')
+        observer.observe(target)
+      })
+    }
+
+    register(document)
+
+    const routeObserver = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        mutation.addedNodes.forEach((node) => {
+          if (node instanceof Element) register(node)
+        })
+      })
+    })
+
+    routeObserver.observe(document.body, { childList: true, subtree: true })
 
     return () => {
+      routeObserver.disconnect()
       observer.disconnect()
-      root.classList.remove('motion-ready')
+      document.querySelectorAll<HTMLElement>(motionSelector).forEach((target) => {
+        target.classList.remove('motion-pending')
+      })
     }
   }, [])
 

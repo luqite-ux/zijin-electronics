@@ -83,51 +83,45 @@ a {
 @keyframes card-enter { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
 
 @media (prefers-reduced-motion: no-preference) {
-  .motion-ready .motion-section,
-  .motion-ready .motion-section-heading,
-  .motion-ready .motion-card,
-  .motion-ready .motion-media {
+  .motion-pending {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 620ms cubic-bezier(.2,.75,.2,1), transform 620ms cubic-bezier(.2,.75,.2,1), box-shadow 300ms ease, border-color 300ms ease, clip-path 700ms cubic-bezier(.2,.75,.2,1);
     will-change: opacity, transform;
   }
 
-  .motion-ready .motion-section-heading {
+  .motion-section-heading.motion-pending {
     transition-delay: 70ms;
   }
 
-  .motion-ready .motion-card {
+  .motion-card.motion-pending {
     transition-delay: var(--motion-delay, 0ms);
   }
 
-  .motion-ready .motion-media {
+  .motion-media.motion-pending {
     clip-path: inset(0 7% 0 7%);
     transform: scale(.985);
   }
 
-  .motion-ready .motion-section.is-visible,
-  .motion-ready .motion-section-heading.is-visible,
-  .motion-ready .motion-card.is-visible,
-  .motion-ready .motion-media.is-visible {
+  .motion-pending.is-visible {
     opacity: 1;
     transform: translateY(0) scale(1);
     clip-path: inset(0 0 0 0);
   }
 
-  .motion-ready .motion-card.is-visible:hover {
+  .motion-card.motion-pending.is-visible:hover {
     transform: translateY(-6px);
   }
 }
 
 @media (max-width: 639px) and (prefers-reduced-motion: no-preference) {
-  .motion-ready .motion-section,
-  .motion-ready .motion-section-heading,
-  .motion-ready .motion-card {
+  .motion-section.motion-pending,
+  .motion-section-heading.motion-pending,
+  .motion-card.motion-pending {
     transform: translateY(16px);
   }
 
-  .motion-ready .motion-media {
+  .motion-media.motion-pending {
     clip-path: inset(0 4% 0 4%);
   }
 }
