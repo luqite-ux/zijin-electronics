@@ -4,6 +4,7 @@ import { productPath } from '@/lib/routes'
 import { getPublishedArticles } from '@/lib/articles-db'
 
 export const revalidate = 60
+export const dynamic = 'force-dynamic'
 
 const baseUrl = 'https://www.zijinglobal.com'
 
